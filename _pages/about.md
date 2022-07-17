@@ -24,17 +24,6 @@ I have been a member of Zhibin Li's [Advanced Intelligent Robotics Lab](https://
 **Tsinghua University**
 <div style="float:left; text-align:left"><i>Bachelor, Department of Automation</i></div> <div style="float:right; text-align:right"><i>Sep. 2014 - Jun. 2018</i></div><br />
 
-
-## Publications
-* ***Wenbin Hu***, Iordanis Chatzinikolaidis, Kai Yuan, Zhibin Li. Comparison Study of Nonlinear Optimization of Step Durations and Foot Placement for Dynamic Walking. *IEEE International Conference on Robotics and Automation (ICRA)*. 2018, 433-439.
-* ***Wenbin Hu***, Chuanyu Yang, Kai Yuan, Zhibin Li. Learning Motor Skills of Reactive Reaching and Grasping of Objects. *IEEE International Conference on Robotics and Biomimetics (ROBIO)*. 2021, 452-457
-* Zhaole Sun, ***Wenbin Hu***, Kai Yuan, Chuanyu Yang, Zhibin Li. Learning Pregrasp Manipulation of Objects from Ungraspable Poses. *IEEE International Conference on Robotics and Automation (ICRA)*. 2020, 9917-9923
-* Shuaijun Wang, ***Wenbin Hu***, Lining Sun, Xin Wang, Zhibin Li. Learning Adaptive Grasping From Human Demonstrations. *IEEE/ASME Transactions on Mechatronics*. 2021
-* Haitao Wang, Zhongyuan Tian, ***Wenbin Hu***, Mingguo Zhao. Human-Like ZMP Generator and Walking Stabilizer Based on Divergent Component of Motion. *IEEE-RAS 18th International Conference on Humanoid Robots (Humanoids)*. 2018, 1-9
-* Zhongyuan Tian, Xueheng Zhang, ***Wenbin Hu***, Mingguo Zhao. Walking Pattern Generation Using Quintic Spline Function Based on Human Motion Capture. *IEEE International Conference on Robotics and Biomimetics (ROBIO)*. 2018, 575-580
-* Eleftherios Triantafyllidis, ***Wenbin Hu***, Christopher McGreavy, Zhibin Li. Metrics for 3D Object Pointing and Manipulation in Virtual Reality. *IEEE Robotics and Automation Magazine*. 2022, vol. 29, no. 1, pp. 76-91.
-* Nanbo Li, Muhammad Ahmed Raza, ***Wenbin Hu***, Zhaole Sun, Robert B. Fisher Object-Centric Representation Learning with Generative Spatial-Temporal Factorization. *Advances in Neural Information Processing Systems (NeurIPS)*. 2021, 34, 10772-10783
-
 ## Research Experiences
 **Learning Tactile-based In-hand Manipulation**
 <div style="float:left; text-align:left">Robotics X Lab, Tencent</div> <div style="float:right; text-align:right"><i>2021.04 - Present</i></div>
@@ -80,6 +69,16 @@ Advisor: Dr. Mingguo Zhao</p>
   <p>Planning the robot swinging foot motion with spline interpolation to kick the football, as a member of Tsinghua Hephaestus team in RoboCup 2018.</p>
 </li>
 </ul>
+
+## Publications
+* ***Wenbin Hu***, Iordanis Chatzinikolaidis, Kai Yuan, Zhibin Li. Comparison Study of Nonlinear Optimization of Step Durations and Foot Placement for Dynamic Walking. *IEEE International Conference on Robotics and Automation (ICRA)*. 2018, 433-439.
+* ***Wenbin Hu***, Chuanyu Yang, Kai Yuan, Zhibin Li. Learning Motor Skills of Reactive Reaching and Grasping of Objects. *IEEE International Conference on Robotics and Biomimetics (ROBIO)*. 2021, 452-457
+* Zhaole Sun, ***Wenbin Hu***, Kai Yuan, Chuanyu Yang, Zhibin Li. Learning Pregrasp Manipulation of Objects from Ungraspable Poses. *IEEE International Conference on Robotics and Automation (ICRA)*. 2020, 9917-9923
+* Shuaijun Wang, ***Wenbin Hu***, Lining Sun, Xin Wang, Zhibin Li. Learning Adaptive Grasping From Human Demonstrations. *IEEE/ASME Transactions on Mechatronics*. 2021
+* Haitao Wang, Zhongyuan Tian, ***Wenbin Hu***, Mingguo Zhao. Human-Like ZMP Generator and Walking Stabilizer Based on Divergent Component of Motion. *IEEE-RAS 18th International Conference on Humanoid Robots (Humanoids)*. 2018, 1-9
+* Zhongyuan Tian, Xueheng Zhang, ***Wenbin Hu***, Mingguo Zhao. Walking Pattern Generation Using Quintic Spline Function Based on Human Motion Capture. *IEEE International Conference on Robotics and Biomimetics (ROBIO)*. 2018, 575-580
+* Eleftherios Triantafyllidis, ***Wenbin Hu***, Christopher McGreavy, Zhibin Li. Metrics for 3D Object Pointing and Manipulation in Virtual Reality. *IEEE Robotics and Automation Magazine*. 2022, vol. 29, no. 1, pp. 76-91.
+* Nanbo Li, Muhammad Ahmed Raza, ***Wenbin Hu***, Zhaole Sun, Robert B. Fisher Object-Centric Representation Learning with Generative Spatial-Temporal Factorization. *Advances in Neural Information Processing Systems (NeurIPS)*. 2021, 34, 10772-10783
 
 ## Skills
 ---
