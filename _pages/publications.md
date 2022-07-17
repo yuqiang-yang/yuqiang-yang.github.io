@@ -60,7 +60,7 @@ You can also find my articles on <u><a href="https://scholar.google.co.uk/citati
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:0px">
   <tr>
     <td style="border:0px;padding:0.1%;width:40%;vertical-align:middle;min-width:120px">
-    <img src="../files/pregrasp.png" alt="Demonstration of our pregrasp policy." style="width:auto; height:auto; max-width:100%;"/>
+    <img src="../files/pre-grasp.png" alt="Demonstration of our pregrasp policy." style="width:auto; height:auto; max-width:100%;"/>
     </td>
     <td style="border:0px;padding:2.5%;width:70%;vertical-align:middle">
      Inspired by humans' bimanual manipulation, we address this type of problems by introducing pregrasp manipulation -- push and lift actions. We propose a model-free Deep Reinforcement Learning framework to train control policies that utilize visual information and proprioceptive states of the robot to autonomously discover robust pregrasp manipulation. The robot arm learns to first push the object towards a support surface and establishes a pivot to lift up one side of the object, thus creating a clearance between the object and the table for possible grasping solutions. Furthermore, we show the effectiveness of our proposed learning framework in training robust pregrasp policies that can achieve sim2real effectively.
