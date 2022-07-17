@@ -13,11 +13,9 @@ I am Wenbin HU, a Ph.D student in robotic grasping and manipulation at the [Univ
 My research interests are learning-based robotic grasping and manipulation. Specifically, I have been exploring and exploiting the potentiality of deep reinforcement learning in acquiring responsive manipulation skills, such as grasping moving objects or catching flying objects. Recently I am working on the in-hand manipulation with tactile feedback, where compared with policy learning in simulation, the sim-to-real transfer is more challenging.
 
 ## Biography
----
 I have been a member of Zhibin Li's [Advanced Intelligent Robotics Lab](https://groups.inf.ed.ac.uk/advr/index.html) since 2018, after I graduated from [Tsinghua University](https://www.tsinghua.edu.cn/) with the bachelor's degree at [Department of Automation](https://www.au.tsinghua.edu.cn/).
 
 ## Education
----
 **University of Edinburgh**
 <div style="float:left; text-align:left"><i>Ph.D, Robotics</i></div> <div style="float:right; text-align:right"><i>Sep. 2018 - Present</i></div><br />
 <div style="float:left; text-align:left">Institute of Perception, Actions and Behaviour, School of Informatics</div>
@@ -28,7 +26,6 @@ I have been a member of Zhibin Li's [Advanced Intelligent Robotics Lab](https://
 
 
 ## Publications
----
 * ***Wenbin Hu***, Iordanis Chatzinikolaidis, Kai Yuan, Zhibin Li. Comparison Study of Nonlinear Optimization of Step Durations and Foot Placement for Dynamic Walking. *IEEE International Conference on Robotics and Automation (ICRA)*. 2018, 433-439.
 * ***Wenbin Hu***, Chuanyu Yang, Kai Yuan, Zhibin Li. Learning Motor Skills of Reactive Reaching and Grasping of Objects. *IEEE International Conference on Robotics and Biomimetics (ROBIO)*. 2021, 452-457
 * Zhaole Sun, ***Wenbin Hu***, Kai Yuan, Chuanyu Yang, Zhibin Li. Learning Pregrasp Manipulation of Objects from Ungraspable Poses. *IEEE International Conference on Robotics and Automation (ICRA)*. 2020, 9917-9923
@@ -39,9 +36,10 @@ I have been a member of Zhibin Li's [Advanced Intelligent Robotics Lab](https://
 * Nanbo Li, Muhammad Ahmed Raza, ***Wenbin Hu***, Zhaole Sun, Robert B. Fisher Object-Centric Representation Learning with Generative Spatial-Temporal Factorization. *Advances in Neural Information Processing Systems (NeurIPS)*. 2021, 34, 10772-10783
 
 ## Research Experiences
----
 **Learning Tactile-based In-hand Manipulation**
 <div style="float:left; text-align:left">Robotics X Lab, Tencent</div> <div style="float:right; text-align:right"><i>2021.04 - Present</i></div>
+<p> <br />
+</p>
 <ul>
 <li>
   <p>Manipulate a stick using a three-fingered robotic hand equipped with tactile sensors to stir a cup of water.</p>
