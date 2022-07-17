@@ -39,7 +39,7 @@
   }
 
   p, li {
-    font-family: $sans-serif;
+    font-family: $serif;
     font-size: $type-size-6;
     line-height: 1.5;
   }
@@ -74,7 +74,7 @@
   vertical-align: top;
   width: 36px;
   // set width only, for non-square avatars
-  // height: 36px;
+  height: 36px;
 
   @include breakpoint($large) {
     display: block;
@@ -84,7 +84,7 @@
 
   img {
     max-width: 175px;
-    border-radius: 50%;
+    border-radius: 100%;
 
     @include breakpoint($large) {
       padding: 5px;
@@ -123,7 +123,7 @@
 
 .author__bio {
   margin: 0;
-
+  font-family: $serif;
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
@@ -134,7 +134,7 @@
   position: relative;
   display: table-cell;
   vertical-align: middle;
-  font-family: $sans-serif;
+  font-family: $serif;
   z-index: 10;
   position: relative;
   cursor: pointer;
