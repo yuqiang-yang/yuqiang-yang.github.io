@@ -16,13 +16,13 @@ My research interests are robotic learning from demonstration, mobile manipulati
 ## Education
 **South China University of Technology**
 <div style="float:left; text-align:left"><i>Master, Robotics</i></div> <div style="float:right; text-align:right"><i>Sep. 2022 - Present</i></div><br />
-<div style="float:left; text-align:left">School of Automation Science and Engineering, South China University
-of Technology</div>
+<div style="float:left; text-align:left">School of Automation Science and Engineering</div>
 <p><br />Supervisor: Prof. Chenguang Yang</p>
 
 **South China University of Technology**
-<div style="float:left; text-align:left"><i>Bachelor, Department of Automation</i></div> 
+<div style="float:left; text-align:left"><i>Bachelor, School of Automation Science and Engineering</i></div> 
 <div style="float:right; text-align:right"><i>Sep. 2018 - Jun. 2022</i></div><br/>
+<p>GPA: 3.94/4.0 (ranked first)</p>
 
 ## Research Experiences
 
@@ -30,7 +30,7 @@ of Technology</div>
 **Realtime wholebody control of the mobile manipulator in cluttered environment**
 <div style="float:left; text-align:left">Application Innovate Laboratory, Huawei</div> <div style="float:right; text-align:right"><i>2022.10 - present</i></div>  
 <br />
-Advisor: Dr. Chen Chen</br>
+Advisor: Dr. Chen Chen
 <ul>
 <li>
    Construct the occupancy grid map and ESDF based on <a href="https://github.com/HKUST-Aerial-Robotics/FIESTA" title="FIESTA">FIESTA</a>. Then bias the sample of RRT* to get an initial guiding path according to the topological map in Cartesian space. 
@@ -68,6 +68,15 @@ the mobile manipulator to perform tasks.</p>
 </ul>
 
 ## Project Experiences
+
+## Honor & Awards
+<ul>
+<li> <div style="float:left; text-align:left">National Scholarship</div> <div style="float:right; text-align:right"><i>2021-10</i></div>
+<li> <div style="float:left; text-align:left"> Scholarship of <a href="https://www.gac.com.cn/cn/" title="GuangQi">Guangzhou Automobile Group Co., Ltd</a></div> <div style="float:right; text-align:right"><i>2020-10</i></div>
+<li> <div style="float:left; text-align:left">National Scholarship</div> <div style="float:right; text-align:right"><i>2019-10</i></div>
+<li> <div style="float:left; text-align:left">The first prize of the <a href="https://www.caa.org.cn/Content/260.html" title="zhinengche">National University Students Intelligent Car Race</a> </div> <div style="float:right; text-align:right"><i>2020-08</i></div>
+<li> <div style="float:left; text-align:left">Meritorious Winner of  <a href="https://www.comap.com/contests/mcm-icm" title="zhinengche">Interdisciplinary Contest In Modeling (ICM)</a> </div> <div style="float:right; text-align:right"><i>2021-03</i></div>
+</ul>
 
 ## Skills
 ---
