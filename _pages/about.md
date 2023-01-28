@@ -68,7 +68,21 @@ the mobile manipulator to perform tasks.</p>
 </ul>
 
 ## Project Experiences
-
+**Self-balanced smart car with wireless charging capability**
+<div style="float:left; text-align:left">School of Automation Science and Engineering, SCUT</div> <div style="float:right; text-align:right"><i>2020.01 - 2020.08</i></div>
+<p> <br />
+Advisor: Dr. An Chen</p>
+<ul>
+<li>
+  <p>Design and implement the adaptive wireless-charging algorithm to quickly charge the supercapacitors mounted on the car. A series control sytem from the charing power loop to the charging current loop is designed to stablize the charging power at 30W.</p>
+</li>
+<li>
+  <p> Control the position and orientation of the two-wheeled car to complete a complex race track with different elements such as circles and slopes. The perception infomation mainly comes from the on-board IMU and electromagnetic sensors.</p>
+</li>
+<li>
+  <p> We finished the race in fifth national ranking with a time of 23.8s and won the first prize.</p>
+</li>
+</ul>
 ## Honor & Awards
 <ul>
 <li> <div style="float:left; text-align:left">National Scholarship</div> <div style="float:right; text-align:right"><i>2021-10</i></div>
@@ -77,9 +91,11 @@ the mobile manipulator to perform tasks.</p>
 <li> <div style="float:left; text-align:left">The first prize of the <a href="https://www.caa.org.cn/Content/260.html" title="zhinengche">National University Students Intelligent Car Race</a> </div> <div style="float:right; text-align:right"><i>2020-08</i></div>
 <li> <div style="float:left; text-align:left">Meritorious Winner of  <a href="https://www.comap.com/contests/mcm-icm" title="zhinengche">Interdisciplinary Contest In Modeling (ICM)</a> </div> <div style="float:right; text-align:right"><i>2021-03</i></div>
 </li>
+
 </ul>
 
 </br>
+
 ## Skills
 
 **Programming and Machine Learning Framework:**
