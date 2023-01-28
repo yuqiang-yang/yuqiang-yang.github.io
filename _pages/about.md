@@ -83,6 +83,20 @@ Advisor: Dr. An Chen</p>
   <p> We finished the race in fifth national ranking with a time of 23.8s and won the first prize.</p>
 </li>
 </ul>
+
+**Graceful wholebody pick-and-place for mobile manipulator**
+<div style="float:left; text-align:left">Application Innovate Laboratory, Huawei</div> <div style="float:right; text-align:right"><i>2022.10 - 2022.11</i></div>
+<p> <br />
+Advisor: Dr. Chen Chen</p>
+<ul>
+<li>
+  <p>Train GGCNN for the peception of the objects' pose and the grasp quality. The inputs of GGCNN are pointclouds while the ouputs are the grasp quality, width and orientation.</p>
+</li>
+<li>
+  <p> Jointly consider the manipulability, energy, manipulator orientation, path tracking in the QP solvers. The dynamic-weighted QP is implemented based on the tracking error to acheive graceful picking-and-placing.</p>
+</li>
+
+</ul>
 ## Honor & Awards
 <ul>
 <li> <div style="float:left; text-align:left">National Scholarship</div> <div style="float:right; text-align:right"><i>2021-10</i></div>
@@ -94,7 +108,6 @@ Advisor: Dr. An Chen</p>
 
 </ul>
 
-</br>
 
 ## Skills
 
@@ -104,5 +117,8 @@ Advisor: Dr. An Chen</p>
 **Simulator:**
 <p>MuJoCo, PyBullet, Gazebo.</p>
 
+**Robotics:**
+<p>DH, wholebody control, Admittance/Impedance Control, Gravity Compensation,  Shared control, teleoperation</p>
+
 **Hardware Experience:**
-<p>Franka, UR10, Mobile Manipulator, Robotiq 2F85, Vicon, STM32</p>
+<p>Franka, UR10, Mobile Manipulator, Robotiq 2F85, Vicon, Touch X, ATI sensors,STM32</p>
