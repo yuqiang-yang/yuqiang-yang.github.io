@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Wenbin HU(胡雯缤)"
+  name             : "Yuqiang Yang(杨宇强)"
   avatar           : "../files/photo-ver2.jpg"
-  bio              : "Ph.D student at University of Edinburgh, Robotics"
-  location         : "Edinburgh, UK"
+  bio              : "Master Candidate at South China University of Technology"
+  location         : "Shenzhen, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.co.uk/citations?user=YH8aMHUAAAAJ&hl=en"
-  email            : "wenbin.hu@ed.ac.uk"
-  researchgate     : "https://www.researchgate.net/profile/Wenbin-Hu-6/research"
+  googlescholar    : 
+  email            : "auyuqiangyang@gmail.com"
+  researchgate     : 
   uri              :
   bitbucket        :
   codepen          :
@@ -96,14 +96,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "wenbin-hu"
+  github           : "yuqiang6149"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "https://orcid.org/0000-0003-3073-5182"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
