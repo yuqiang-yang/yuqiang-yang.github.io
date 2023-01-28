@@ -9,24 +9,24 @@ redirect_from:
   - /about.html
 ---
 
-I am Wenbin HU, a Ph.D student in robotic grasping and manipulation at the [University of Edinburgh](https://www.ed.ac.uk/), supervised by [Dr. Zhibin Li](https://groups.inf.ed.ac.uk/advr/index.html)(principal supervisor) and [Prof. Taku Komura](https://www.cs.hku.hk/index.php/people/academic-staff/taku)(second supervisor). 
+I am Yuqiang Yang, a master candidate at [South China University of Technology](https://www.scut.edu.cn/new/), supervised by [Dr. Chenguang Yang](https://scholar.google.com/citations?user=e8io0fYAAAAJ&hl=zh-CN&oi=ao). Now I am also 
 
-My research interests are learning-based robotic grasping and manipulation. Specifically, I have been exploring and exploiting the potentiality of deep reinforcement learning in acquiring responsive manipulation skills, such as grasping moving objects or catching flying objects. Recently I am working on the in-hand manipulation with tactile feedback, where compared with policy learning in simulation, the sim-to-real transfer is more challenging.
+My research interests are robotic learning from demonstration, mobile manipulation and whole-body control. Specifically, I have been exploring and exploiting the potentiality of the wheeled mobile manipulators in acquiring manipulation skills from human demonstration, such as picking-and-placing or openning the door. Recently I am working on the wholebody control of the wheeled mobile maniputors through SLQ-MPC controller implemented in [OCS2](https://github.com/leggedrobotics/ocs2). 
 
 ## Biography
-I have been a member of Zhibin Li's [Advanced Intelligent Robotics Lab](https://groups.inf.ed.ac.uk/advr/index.html) since 2018, after I graduated from [Tsinghua University](https://www.tsinghua.edu.cn/) with the bachelor's degree at [Department of Automation](https://www.au.tsinghua.edu.cn/).
+I have been a member of Chenguang Yang's [Advanced Intelligent Robotics Lab](https://groups.inf.ed.ac.uk/advr/index.html) since 2021, after I graduated from [Tsinghua University](https://www.tsinghua.edu.cn/) with the bachelor's degree at [Department of Automation](https://www.au.tsinghua.edu.cn/).
 
 ## Education
-**University of Edinburgh**
-<div style="float:left; text-align:left"><i>Ph.D, Robotics</i></div> <div style="float:right; text-align:right"><i>Sep. 2018 - Present</i></div><br />
+**South China University of Technology**
+<div style="float:left; text-align:left"><i>Master, Robotics</i></div> <div style="float:right; text-align:right"><i>Sep. 2022 - Present</i></div><br />
 <div style="float:left; text-align:left">Institute of Perception, Actions and Behaviour, School of Informatics</div>
-<p><br />Supervisor: Dr. Zhibin Li</p>
+<p><br />Supervisor: Dr. Chenguang Yang</p>
 
-**Tsinghua University**
-<div style="float:left; text-align:left"><i>Bachelor, Department of Automation</i></div> <div style="float:right; text-align:right"><i>Sep. 2014 - Jun. 2018</i></div><br />
+**South China University of Technology**
+<div style="float:left; text-align:left"><i>Bachelor, Department of Automation</i></div> <div style="float:right; text-align:right"><i>Sep. 2018 - Jun. 2022/i></div><br />
 
 ## Research Experiences
-**Learning Tactile-based In-hand Manipulation**
+**Wholebody Control for wheeled mobile manipulator**
 <div style="float:left; text-align:left">Robotics X Lab, Tencent</div> <div style="float:right; text-align:right"><i>2021.04 - Present</i></div>
 <p> <br />
 </p>
@@ -74,20 +74,14 @@ Advisor: Dr. Mingguo Zhao</p>
 ## Publications
 * ***Wenbin Hu***, Iordanis Chatzinikolaidis, Kai Yuan, Zhibin Li. Comparison Study of Nonlinear Optimization of Step Durations and Foot Placement for Dynamic Walking. *IEEE International Conference on Robotics and Automation (ICRA)*. 2018, 433-439.
 * ***Wenbin Hu***, Chuanyu Yang, Kai Yuan, Zhibin Li. Learning Motor Skills of Reactive Reaching and Grasping of Objects. *IEEE International Conference on Robotics and Biomimetics (ROBIO)*. 2021, 452-457
-* Zhaole Sun, ***Wenbin Hu***, Kai Yuan, Chuanyu Yang, Zhibin Li. Learning Pregrasp Manipulation of Objects from Ungraspable Poses. *IEEE International Conference on Robotics and Automation (ICRA)*. 2020, 9917-9923
-* Shuaijun Wang, ***Wenbin Hu***, Lining Sun, Xin Wang, Zhibin Li. Learning Adaptive Grasping From Human Demonstrations. *IEEE/ASME Transactions on Mechatronics*. 2021
-* Haitao Wang, Zhongyuan Tian, ***Wenbin Hu***, Mingguo Zhao. Human-Like ZMP Generator and Walking Stabilizer Based on Divergent Component of Motion. *IEEE-RAS 18th International Conference on Humanoid Robots (Humanoids)*. 2018, 1-9
-* Zhongyuan Tian, Xueheng Zhang, ***Wenbin Hu***, Mingguo Zhao. Walking Pattern Generation Using Quintic Spline Function Based on Human Motion Capture. *IEEE International Conference on Robotics and Biomimetics (ROBIO)*. 2018, 575-580
-* Eleftherios Triantafyllidis, ***Wenbin Hu***, Christopher McGreavy, Zhibin Li. Metrics for 3D Object Pointing and Manipulation in Virtual Reality. *IEEE Robotics and Automation Magazine*. 2022, vol. 29, no. 1, pp. 76-91.
-* Nanbo Li, Muhammad Ahmed Raza, ***Wenbin Hu***, Zhaole Sun, Robert B. Fisher Object-Centric Representation Learning with Generative Spatial-Temporal Factorization. *Advances in Neural Information Processing Systems (NeurIPS)*. 2021, 34, 10772-10783
 
 ## Skills
 ---
 **Programming and Machine Learning Framework:**
-<p>Python, MATLAB, C/C++, PyTorch, TensorFlow.</p>  
+<p>Python, MATLAB, C/C++, PyTorch.</p>  
 
 **Simulator:**
 <p>MuJoCo, PyBullet, Gazebo.</p>
 
 **Hardware Experience:**
-<p>Franka, UR10, Allegro Hand, Robotiq 2F85, OptiTrack, Vicon</p>
+<p>Franka, UR10, Mobile Manipulator, Robotiq 2F85, Vicon</p>
