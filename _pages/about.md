@@ -106,17 +106,14 @@ Advisor: Dr. Chen Chen</p>
 <li> <div style="float:left; text-align:left">The first prize of the <a href="https://www.caa.org.cn/Content/260.html" title="zhinengche">National University Students Intelligent Car Race</a> </div> <div style="float:right; text-align:right"><i>2020-08</i></div>
 <li> <div style="float:left; text-align:left">Meritorious Winner of  <a href="https://www.comap.com/contests/mcm-icm" title="zhinengche">Interdisciplinary Contest In Modeling (ICM)</a> </div> <div style="float:right; text-align:right"><i>2021-03</i></div>
 </li>
-</ul>
+
 
 ## Skills
-**Programming and Machine Learning Framework:**
-<p>Python, MATLAB, C/C++, PyTorch.</p>  
-
-**Simulator:**
-<p>MuJoCo, PyBullet, Gazebo.</p>
+**Programming and Learning Framework:**
+<p>Python, MATLAB, C/C++, PyTorch, Pybullet</p>  
 
 **Robotics:**
 <p>DH, wholebody control, Admittance/Impedance Control, Gravity Compensation,  Shared control, teleoperation</p>
 
 **Hardware Experience:**
-<p>Franka, UR10, Mobile Manipulator, Robotiq 2F85, Vicon, Touch X, ATI sensors,STM32</p>
+<p>Franka, UR10, Mobile Manipulator, Robotiq 2F85, Vicon, Touch X, ATI sensors, STM32</p>
