@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>about.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<p>I am Yuqiang Yang, a master candidate at <a href="https://www.scut.edu.cn/new/">South China University of Technology</a>, supervised by <a href="https://scholar.google.com/citations?user=e8io0fYAAAAJ&amp;hl=zh-CN&amp;oi=ao">Prof. Chenguang Yang</a>. Now I am also working as an intern at Application Innovate Laboratory, <a href="www.huawei.com">Huawei Technologies Co.Ltd</a>.</p>
+<p>My research interests are robotic learning from demonstration, mobile manipulation and whole-body control. Specifically, I have been exploring and exploiting the potentiality of the wheeled mobile manipulators in acquiring manipulation skills from human demonstration, such as picking-and-placing or openning the door. Recently I am working on the wholebody control of the wheeled mobile maniputors through SLQ-MPC controller implemented in <a href="https://github.com/leggedrobotics/ocs2">OCS2</a>. This goal of this project is to enable mobile manipulators to plan and execute the manipulation in real time in a cluttered environment.</p>
+<h2 id="education">Education</h2>
+<p><strong>South China University of Technology</strong></p>
+<div style="float:left; text-align:left"><i>Master, Robotics</i></div> <div style="float:right; text-align:right"><i>Sep. 2022 - Present</i></div><br />
+<div style="float:left; text-align:left">School of Automation Science and Engineering</div>
+<p><br />Supervisor: Prof. Chenguang Yang</p>
+<p><strong>South China University of Technology</strong></p>
+<div style="float:left; text-align:left"><i>Bachelor, School of Automation Science and Engineering</i></div> 
+<div style="float:right; text-align:right"><i>Sep. 2018 - Jun. 2022</i></div><br/>
+<p>GPA: 3.94/4.0 (ranked first)</p>
+<h2 id="research-experiences">Research Experiences</h2>
+<p><strong>Realtime wholebody control of the mobile manipulator in cluttered environment</strong></p>
+<div style="float:left; text-align:left">Application Innovate Laboratory, Huawei</div> <div style="float:right; text-align:right"><i>2022.10 - present</i></div>  
+<br />
+Advisor: Dr. Chen Chen
+<ul>
+<li>
+   Construct the occupancy grid map and ESDF based on <a href="https://github.com/HKUST-Aerial-Robotics/FIESTA" title="FIESTA">FIESTA</a>. Then bias the sample of RRT* to get an initial guiding path according to the topological map in Cartesian space. 
+</li>
+<li>
+  <p> Propose and analyse the adaptive MPC theorectically to improve the convergence and optimality in complex environments where multiple non-convex costs or contraints exist</p>
+</li>
+<li>
+  <p>The proposed framework is verified through experiments about picking and placing a cup gracefully in clutted environment.</p>
+</li>
+</ul>
+<p><strong>Learning the coordination motion of mobile  manipulators through human demonstration</strong></p>
+<div style="float:left; text-align:left">School of Automation Science and Engineering, SCUT</div> <div style="float:right; text-align:right"><i>2022.01 - 2022.09</i></div>
+<p> <br />
+Advisor: Prof. Chenguang Yang</p>
+<ul>
+<li>
+  <p>Propose a
+whole-body LfD framework through Gaussian Process, which
+endows the mobile manipulator’s skill learning process with
+features of large-scale convergence, coordination working and
+disturbance rejection, after just a few human demonstrations.</p>
+</li>
+<li>
+  <p>An
+efficient kinesthetic teaching method is devised based on the
+weighted least-norm (WLN) inverse kinematics solution and an
+admittance controller, which facilitates human users to guide
+the mobile manipulator to perform tasks.</p>
+</li>
+<li>
+  <p> The framework allows for human-in-the-loop correction when the whole-body is conducting a task.</p>
+</li>
+</ul>
+<h2 id="project-experiences">Project Experiences</h2>
+<p><strong>Self-balanced smart car with wireless charging capability</strong></p>
+<div style="float:left; text-align:left">School of Automation Science and Engineering, SCUT</div> <div style="float:right; text-align:right"><i>2020.01 - 2020.08</i></div>
+<p> <br />
+Advisor: Dr. An Chen</p>
+<ul>
+<li>
+  <p>Design and implement the adaptive wireless-charging algorithm to quickly charge the supercapacitors mounted on the car. A series control sytem from the charing power loop to the charging current loop is designed to stablize the charging power at 30W.</p>
+</li>
+<li>
+  <p> Control the position and orientation of the two-wheeled car to complete a complex race track with different elements such as circles and slopes. The perception infomation mainly comes from the on-board IMU and electromagnetic sensors.</p>
+</li>
+<li>
+  <p> We finished the race in fifth national ranking with a time of 23.8s and won the first prize.</p>
+</li>
+</ul>
+<p><strong>Graceful wholebody pick-and-place for mobile manipulator</strong></p>
+<div style="float:left; text-align:left">Application Innovate Laboratory, Huawei</div> <div style="float:right; text-align:right"><i>2022.10 - 2022.11</i></div>
+<p> <br />
+Advisor: Dr. Chen Chen</p>
+<ul>
+<li>
+  <p>Train GGCNN for the peception of the objects' pose and the grasp quality. The inputs of GGCNN are pointclouds while the ouputs are the grasp quality, width and orientation.</p>
+</li>
+<li>
+  <p> Jointly consider the manipulability, energy, manipulator orientation, path tracking in the QP solvers. The dynamic-weighted QP is implemented based on the tracking error to acheive graceful picking-and-placing.</p>
+</li>
+</ul>
+<h2 id="honor--awards">Honor &amp; Awards</h2>
+<ul>
+<li> <div style="float:left; text-align:left">National Scholarship</div> <div style="float:right; text-align:right"><i>2021-10</i></div></li>
+<li> <div style="float:left; text-align:left"> Scholarship of <a href="https://www.gac.com.cn/cn/" title="GuangQi">Guangzhou Automobile Group Co., Ltd</a></div> <div style="float:right; text-align:right"><i>2020-10</i></div>
+<li> <div style="float:left; text-align:left">National Scholarship</div> <div style="float:right; text-align:right"><i>2019-10</i></div></li>
+<li> <div style="float:left; text-align:left">The first prize of the <a href="https://www.caa.org.cn/Content/260.html" title="zhinengche">National University Students Intelligent Car Race</a> </div> <div style="float:right; text-align:right"><i>2020-08</i></div></li>
+<li> <div style="float:left; text-align:left">Meritorious Winner of  <a href="https://www.comap.com/contests/mcm-icm" title="zhinengche">Interdisciplinary Contest In Modeling (ICM)</a> </div> <div style="float:right; text-align:right"><i>2021-03</i></div> </li>
+</ul>
+<h2 id="skills">Skills</h2>
+<p><strong>Programming and Learning Framework:</strong></p>
+<p>Python, MATLAB, C/C++, PyTorch, Pybullet</p>  
+<p><strong>Robotics:</strong></p>
+<p>DH, wholebody control, Admittance/Impedance Control, Gravity Compensation,  Shared control, teleoperation</p>
+<p><strong>Hardware Experience:</strong></p>
+<p>Franka, UR10, Mobile Manipulator, Robotiq 2F85, Vicon, Touch X, ATI sensors, STM32</p>
+</body>
+</html>
