@@ -95,10 +95,10 @@ Advisor: Dr. Chen Chen</p>
 <li>
   <p> Jointly consider the manipulability, energy, manipulator orientation, path tracking in the QP solvers. The dynamic-weighted QP is implemented based on the tracking error to acheive graceful picking-and-placing.</p>
 </li>
-
 </ul>
 
 ## Honor & Awards
+
 <ul>
 <li> <div style="float:left; text-align:left">National Scholarship</div> <div style="float:right; text-align:right"><i>2021-10</i></div>
 <li> <div style="float:left; text-align:left"> Scholarship of <a href="https://www.gac.com.cn/cn/" title="GuangQi">Guangzhou Automobile Group Co., Ltd</a></div> <div style="float:right; text-align:right"><i>2020-10</i></div>
@@ -106,7 +106,6 @@ Advisor: Dr. Chen Chen</p>
 <li> <div style="float:left; text-align:left">The first prize of the <a href="https://www.caa.org.cn/Content/260.html" title="zhinengche">National University Students Intelligent Car Race</a> </div> <div style="float:right; text-align:right"><i>2020-08</i></div>
 <li> <div style="float:left; text-align:left">Meritorious Winner of  <a href="https://www.comap.com/contests/mcm-icm" title="zhinengche">Interdisciplinary Contest In Modeling (ICM)</a> </div> <div style="float:right; text-align:right"><i>2021-03</i></div>
 </li>
-
 </ul>
 
 ## Skills
