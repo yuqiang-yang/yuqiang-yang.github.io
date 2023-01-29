@@ -14,7 +14,9 @@ Some video of the projects are as follows.
 
 <center><h2>Learning the coordination motion of mobile manipulators through human demonstration</h2></center>
 <p> &emsp;  This research is to allow the mobile manipulator’s skill learning process with features of large-scale convergence, coordination working and disturbance rejection, after just a few human demonstrations.</p>
-<video src="../files/coordination.mp4" style="width= 100%; height=100%; object-fit: fill"></video>
+<video id="video" controls="" preload="none">
+      <source id="mp4" src="../files/coordination.mp4" type="video/mp4">
+</videos>
 <br>
 
 
