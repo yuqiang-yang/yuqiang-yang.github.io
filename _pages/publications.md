@@ -12,16 +12,20 @@ redirect_from:
 
 Some video of the projects are as follows. 
 
-<center><h2>Learning Motor Skills of Reactive Reaching and Grasping of Objects</h2></center>
-<center><i><strong> IEEE International Conference on Robotics and Biomimetics (ROBIO), 2021 </strong></i><a href="https://ieeexplore.ieee.org/abstract/document/9739420"><i class="fa fa-file-pdf-o" aria-hidden="true" style="font-size:24px"></i></a></center>
-<center><i><strong>Wenbin Hu</strong></i>, Chuanyu Yang, Kai Yuan, Zhibin Li</center> 
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:0px">
-  <tr>
-    <td style="border:0px;padding:0.1%;width:40%;vertical-align:middle;min-width:120px">
-    <img src="../files/reaching_grasping.png" alt="Reaching and grasping a moving object." style="width:auto; height:auto; max-width:100%;"/>
-    </td>
-    <td style="border:0px;padding:2.5%;width:70%;vertical-align:middle">
-     This work proposed a deep reinforcement learning based scheme to train feedback control policies which can coordinate reaching and grasping actions in presence of uncertainties. We formulated geometric metrics and task-orientated quantities to design the reward, which enabled efficient exploration of grasping policies. Further, to improve the success rate, we deployed key initial states of difficult hand-finger poses to train policies to overcome potential failures due to challenging configurations.
-    </td>
-  </tr>
-</table>
+<center><h2>Learning the coordination motion of mobile manipulators through human demonstration</h2></center>
+<p>This research is to allow the mobile manipulator’s skill learning process with features of large-scale convergence, coordination working and disturbance rejection, after just a few human demonstrations.</p>
+</br>
+</br>
+
+
+<center><h2>Realtime wholebody control of the mobile manipulator in cluttered environment(TO DO)</h2></center>
+<p>The goal of this project is to enable mobile manipulators to plan and execute the manipulation in real-time in a cluttered environment.</p>
+</br>
+</br>
+<center><h2>Graceful wholebody pick-and-place for mobile manipulator</h2></center>
+<p>Jointly consider the manipulability, energy, manipulator orientation and path tracking in the QP solvers. The dynamic-weighted QP is implemented based on the tracking error to achieve graceful picking-and-placing.</p>
+
+</br>
+</br>
+<center><h2>Self-balanced smart car with wireless charging capability</h2></center>
+<p>This is our team's video in the national competition.</p>
