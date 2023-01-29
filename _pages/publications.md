@@ -26,7 +26,7 @@ Some video of the projects are as follows.
 
 <center><h2>Realtime wholebody control of the mobile manipulator in cluttered environment(TO DO)</h2></center>
 <p>&emsp;The goal of this project is to enable mobile manipulators to plan and execute the manipulation in real-time in a cluttered environment.</p>
-<div width=100%;height=100%>
+<div width=100%; height=100%>
 <video  controls style="width= 100%; height=100%; object-fit: fill">
   <source src="../files/mpc.mp4" type="video/mp4">
 </video>
