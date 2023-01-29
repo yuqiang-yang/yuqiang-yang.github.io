@@ -97,6 +97,18 @@ Advisor: Dr. Chen Chen</p>
 </li>
 </ul>
 
+**Calibration and fusion of multi-sensors**
+<div style="float:left; text-align:left">China-Singapore International Joint Research Institute, Guangzhou</div> <div style="float:right; text-align:right"><i>2021.12 - 2022.02</i></div>
+<br/>
+<ul>
+<li>
+  <p> Synchronize and rectify the multimodal information collected from the LIDAR-RGB-IR suite. Calibrate the intrinsics and extrinsics of different sensors.</p>
+</li>
+<li>
+  <p> Train YOLO V5 on the COCO dataset for 2D target detection, based on which the 3D pointclouds segmentation and classification are used to evaluate the 3D position.</p>
+</li>
+</ul>
+
 ## Honor & Awards
 
 <ul>
