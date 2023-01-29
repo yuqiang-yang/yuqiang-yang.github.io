@@ -13,20 +13,20 @@ redirect_from:
 Some video of the projects are as follows. 
 
 <center><h2>Learning the coordination motion of mobile manipulators through human demonstration</h2></center>
-<p>&emsp&emspThis research is to allow the mobile manipulator’s skill learning process with features of large-scale convergence, coordination working and disturbance rejection, after just a few human demonstrations.</p>
-<video src="../files/coordination.mp4"></video>
+<p> &emsp;  This research is to allow the mobile manipulator’s skill learning process with features of large-scale convergence, coordination working and disturbance rejection, after just a few human demonstrations.</p>
+<video src="../files/coordination.mp4" style="width= 100%; height=100%; object-fit: fill"></video>
 <br>
 
 
 
 <center><h2>Realtime wholebody control of the mobile manipulator in cluttered environment(TO DO)</h2></center>
-<p>&emsp&emspThe goal of this project is to enable mobile manipulators to plan and execute the manipulation in real-time in a cluttered environment.</p>
+<p>&emsp;The goal of this project is to enable mobile manipulators to plan and execute the manipulation in real-time in a cluttered environment.</p>
 
 <br>
 <center><h2>Graceful wholebody pick-and-place for mobile manipulator</h2></center>
-<p>&emsp&emspJointly consider the manipulability, energy, manipulator orientation and path tracking in the QP solvers. The dynamic-weighted QP is implemented based on the tracking error to achieve graceful picking-and-placing.</p>
+<p>&emsp; Jointly consider the manipulability, energy, manipulator orientation and path tracking in the QP solvers. The dynamic-weighted QP is implemented based on the tracking error to achieve graceful picking-and-placing.</p>
 
 <br>
 
 <center><h2>Self-balanced smart car with wireless charging capability</h2></center>
-<p>&emsp&emspThis is our team's video in the national competition.</p>
+<p>&emsp; This is our team's video in the national competition.</p>
