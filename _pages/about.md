@@ -11,7 +11,7 @@ redirect_from:
 
 I am Yuqiang Yang, a master candidate at [South China University of Technology](https://www.scut.edu.cn/new/), supervised by [Prof. Chenguang Yang](https://scholar.google.com/citations?user=e8io0fYAAAAJ&hl=zh-CN&oi=ao). Now I am also working as an intern at Application Innovate Laboratory, [Huawei Technologies Co.Ltd](www.huawei.com).
 
-My research interests are robotic learning from demonstration, mobile manipulation and whole-body control. Specifically, I have been exploring and exploiting the potentiality of the wheeled mobile manipulators in acquiring manipulation skills from human demonstration, such as picking-and-placing or openning the door. Recently I am working on the wholebody control of the wheeled mobile maniputors through SLQ-MPC controller implemented in [OCS2](https://github.com/leggedrobotics/ocs2). This goal of this project is to enable mobile manipulators to plan and execute the manipulation in real time in a cluttered environment.
+My research interests are robotic learning from demonstration, mobile manipulation and whole-body control. Specifically, I have been exploring and exploiting the potentiality of the wheeled mobile manipulators in acquiring manipulation skills from human demonstration, such as picking-and-placing or openning the door. Recently I am working on the wholebody control of the wheeled mobile manipulators through SLQ-MPC controller implemented in [OCS2](https://github.com/leggedrobotics/ocs2). The goal of this project is to enable mobile manipulators to plan and execute the manipulation in real-time in a cluttered environment.
 
 ## Education
 **South China University of Technology**
@@ -36,10 +36,10 @@ Advisor: Dr. Chen Chen
    Construct the occupancy grid map and ESDF based on <a href="https://github.com/HKUST-Aerial-Robotics/FIESTA" title="FIESTA">FIESTA</a>. Then bias the sample of RRT* to get an initial guiding path according to the topological map in Cartesian space. 
 </li>
 <li>
-  <p> Propose and analyse the adaptive MPC theorectically to improve the convergence and optimality in complex environments where multiple non-convex costs or contraints exist</p>
+  <p> Propose and analyse the adaptive MPC theoretically to improve the convergence and optimality in complex environments where multiple non-convex costs or constraints exist</p>
 </li>
 <li>
-  <p>The proposed framework is verified through experiments about picking and placing a cup gracefully in clutted environment.</p>
+  <p>The proposed framework is verified through experiments about picking and placing a cup gracefully in cluttered environments.</p>
 </li>
 </ul>
 
@@ -74,10 +74,10 @@ the mobile manipulator to perform tasks.</p>
 Advisor: Dr. An Chen</p>
 <ul>
 <li>
-  <p>Design and implement the adaptive wireless-charging algorithm to quickly charge the supercapacitors mounted on the car. A series control sytem from the charing power loop to the charging current loop is designed to stablize the charging power at 30W.</p>
+  <p>Design and implement the adaptive wireless-charging algorithm to quickly charge the supercapacitors mounted on the car. A series control system from the charging power loop to the charging current loop is designed to stabilize the charging power at 30W.</p>
 </li>
 <li>
-  <p> Control the position and orientation of the two-wheeled car to complete a complex race track with different elements such as circles and slopes. The perception infomation mainly comes from the on-board IMU and electromagnetic sensors.</p>
+  <p> Control the position and orientation of the two-wheeled car to complete a complex race track with different elements such as circles and slopes. The perception information mainly comes from the onboard IMU and electromagnetic sensors.</p>
 </li>
 <li>
   <p> We finished the race in fifth national ranking with a time of 23.8s and won the first prize.</p>
@@ -90,10 +90,10 @@ Advisor: Dr. An Chen</p>
 Advisor: Dr. Chen Chen</p>
 <ul>
 <li>
-  <p>Train GGCNN for the peception of the objects' pose and the grasp quality. The inputs of GGCNN are pointclouds while the ouputs are the grasp quality, width and orientation.</p>
+  <p>Train GGCNN for the perception of the objects' pose and the grasp quality. The inputs of GGCNN are pointclouds while the outputs are the grasp quality, width and orientation.</p>
 </li>
 <li>
-  <p> Jointly consider the manipulability, energy, manipulator orientation, path tracking in the QP solvers. The dynamic-weighted QP is implemented based on the tracking error to acheive graceful picking-and-placing.</p>
+  <p> Jointly consider the manipulability, energy, manipulator orientation and path tracking in the QP solvers. The dynamic-weighted QP is implemented based on the tracking error to achieve graceful picking-and-placing.</p>
 </li>
 </ul>
 
