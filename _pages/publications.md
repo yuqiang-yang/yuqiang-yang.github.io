@@ -26,9 +26,11 @@ Some video of the projects are as follows.
 
 <center><h2>Realtime wholebody control of the mobile manipulator in cluttered environment(TO DO)</h2></center>
 <p>&emsp;The goal of this project is to enable mobile manipulators to plan and execute the manipulation in real-time in a cluttered environment.</p>
+<div>
 <video width="960" height="540" controls style="width= 100%; height=100%; object-fit: fill">
   <source src="../files/mpc.mp4" type="video/mp4">
 </video>
+</div>
 <br>
 <center><h2>Graceful wholebody pick-and-place for mobile manipulator</h2></center>
 <p>&emsp; Jointly consider the manipulability, energy, manipulator orientation and path tracking in the QP solvers. The dynamic-weighted QP is implemented based on the tracking error to achieve graceful picking-and-placing.</p>
