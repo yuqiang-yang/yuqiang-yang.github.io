@@ -17,7 +17,7 @@ Some video of the projects are as follows.
 <!-- <video id="video" controls="" preload="none">
       <source id="mp4" src="../files/coordination.mp4" type="video/mp4">
 </videos> -->
-<video width="320" height="240" controls>
+<video width="320" height="240" controls style="width= 100%; height=100%; object-fit: fill">
   <source src="../files/coordination.mp4" type="video/mp4">
 </video>
 <br>
