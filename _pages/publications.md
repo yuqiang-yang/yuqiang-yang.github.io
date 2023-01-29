@@ -17,7 +17,7 @@ Some video of the projects are as follows.
 <!-- <video id="video" controls="" preload="none">
       <source id="mp4" src="../files/coordination.mp4" type="video/mp4">
 </videos> -->
-<video width="320" height="240" controls style="width= 100%; height=100%; object-fit: fill">
+<video width="960" height="640" controls style="width= 100%; height=100%; object-fit: fill">
   <source src="../files/coordination.mp4" type="video/mp4">
 </video>
 <br>
@@ -26,12 +26,19 @@ Some video of the projects are as follows.
 
 <center><h2>Realtime wholebody control of the mobile manipulator in cluttered environment(TO DO)</h2></center>
 <p>&emsp;The goal of this project is to enable mobile manipulators to plan and execute the manipulation in real-time in a cluttered environment.</p>
-
+<video width="960" height="640" controls style="width= 100%; height=100%; object-fit: fill">
+  <source src="../files/mpc.mp4" type="video/mp4">
+</video>
 <br>
 <center><h2>Graceful wholebody pick-and-place for mobile manipulator</h2></center>
 <p>&emsp; Jointly consider the manipulability, energy, manipulator orientation and path tracking in the QP solvers. The dynamic-weighted QP is implemented based on the tracking error to achieve graceful picking-and-placing.</p>
-
+<video width="960" height="640" controls style="width= 100%; height=100%; object-fit: fill">
+  <source src="../files/graceful_pick.mp4" type="video/mp4">
+</video>
 <br>
 
 <center><h2>Self-balanced smart car with wireless charging capability</h2></center>
 <p>&emsp; This is our team's video in the national competition.</p>
+<video width="960" height="640" controls style="width= 100%; height=100%; object-fit: fill">
+  <source src="../files/race.mp4" type="video/mp4">
+</video>
