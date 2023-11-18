@@ -40,8 +40,6 @@ My research interests are **wholebody planning and control** for different robot
 ">Fei Gao</a></p>
 
 ## Research Experiences
-
-
 **RAMPAGE: Towards Whole-body, Real-Time and Agile Motion Planning in Dynamic Cluttered Environments for Mobile Manipulators**
 <div style="float:left; text-align:left">Application Innovate Laboratory, Huawei</div> <div style="float:right; text-align:right"><i>2022.10 - present</i></div>  
 <br />
@@ -90,7 +88,6 @@ the mobile manipulator to perform tasks.</p>
 </ul>
 
 ## Project Experiences
-
 **Low-cost and effient mapping, planning (SE3) and control for multicopter in embedded system**
 <div style="float:left; text-align:left">Application Innovate Laboratory, Huawei. FastLab, Zhejiang University</div> <div style="float:right; text-align:right"><i>2023.2 - 2023.11</i></div>
 <p> <br />
