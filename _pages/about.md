@@ -11,7 +11,7 @@ redirect_from:
 
 I am Yuqiang Yang, a master candidate at [South China University of Technology](https://www.scut.edu.cn/new/), supervised by [Prof. Chenguang Yang](https://scholar.google.com/citations?user=e8io0fYAAAAJ&hl=zh-CN&oi=ao). Now I am also working as an intern at Application Innovate Laboratory, [Huawei Technologies Co.Ltd](www.huawei.com).
 
-My research interests are robotic learning from demonstration, mobile manipulation and whole-body control. Specifically, I have been exploring and exploiting the potentiality of the wheeled mobile manipulators in acquiring manipulation skills from human demonstration, such as picking-and-placing or openning the door. Recently I am working on the wholebody control of the wheeled mobile manipulators through SLQ-MPC controller implemented in [OCS2](https://github.com/leggedrobotics/ocs2). The goal of this project is to enable mobile manipulators to plan and execute the manipulation in real-time in a cluttered environment.
+My research interests are robotic **wholebody planning and control** for different platforms such as **mobile manipulator, multicopter and car**. Specifically, I have been exploring and exploiting the potentiality of the wheeled mobile manipulators to avoiding collision aggressively in a wholebody manner and finishing pick-and-place task in 3d cluttered dynamic environment. Besides, I am working towards the low-cost and efficient mapping, planning and control framework for **multicopter** in unstructed environment. I have sufficient engineering experience on deploying algorithms in various robotic scenarios such as agile collision avoidance, pedestrian following and picking-placing. The goal of my research is to endow robots with **agile mobility and manoeuvrability** in a 3d cluttered **dynamic** environment.
 
 ## Education
 **South China University of Technology**
@@ -23,6 +23,12 @@ My research interests are robotic learning from demonstration, mobile manipulati
 <div style="float:left; text-align:left"><i>Bachelor, School of Automation Science and Engineering</i></div> 
 <div style="float:right; text-align:right"><i>Sep. 2018 - Jun. 2022</i></div><br/>
 <p>GPA: 3.94/4.0 (ranked first)</p>
+
+## working
+**Huawei Technologies Co.Ltd**
+<div style="float:left; text-align:left"><i>Intern, Application Innovation Laboratorys</i></div> 
+<div style="float:right; text-align:right"><i>June. 2022 - now</i></div><br/>
+<p>Planning and Control for various robots</p>
 
 ## Research Experiences
 
