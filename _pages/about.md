@@ -11,9 +11,9 @@ redirect_from:
 
 I am Yuqiang Yang, a master candidate at [South China University of Technology](https://www.scut.edu.cn/new/), supervised by [Prof. Chenguang Yang](https://scholar.google.com/citations?user=e8io0fYAAAAJ&hl=zh-CN&oi=ao). Now I am also working as an intern at Application Innovate Laboratory, [Huawei Technologies Co.Ltd](www.huawei.com).
 
-My research interests are robotic **wholebody planning and control** for different platforms such as **mobile manipulator, multicopter and car**. Specifically, I have been exploring and exploiting the potentiality of the wheeled mobile manipulators to avoiding collision aggressively in a wholebody manner and finishing pick-and-place task in 3d cluttered dynamic environment. Besides, I am working towards the low-cost and efficient mapping, planning and control framework for **multicopter** in unstructed environment. I have sufficient engineering experience on deploying algorithms in various robotic scenarios such as agile collision avoidance, pedestrian following and picking-placing. The goal of my research is to endow robots with **agile mobility and manoeuvrability** in a 3d cluttered **dynamic** environment.
+My research interests are **wholebody planning and control** for different robots such as **mobile manipulator, multicopter and car**. Specifically, I have been exploring and exploiting the potentiality of the wheeled mobile manipulators to avoiding collision aggressively in a wholebody manner and finishing pick-and-place task in 3d cluttered dynamic environment. Besides, I am working towards the low-cost and efficient mapping, planning and control framework for **multicopter** in unstructed environment. I have sufficient engineering experience on deploying algorithms in various robotic scenarios such as agile collision avoidance, pedestrian following and picking-placing. The goal of my research is to endow robots with **agile mobility and manoeuvrability** in a 3d cluttered **dynamic** environment.
 
-## Education
+## Education and Working
 **South China University of Technology**
 <div style="float:left; text-align:left"><i>Master, Robotics</i></div> <div style="float:right; text-align:right"><i>Sep. 2022 - Present</i></div><br />
 <div style="float:left; text-align:left">School of Automation Science and Engineering</div>
@@ -24,32 +24,35 @@ My research interests are robotic **wholebody planning and control** for differe
 <div style="float:right; text-align:right"><i>Sep. 2018 - Jun. 2022</i></div><br/>
 <p>GPA: 3.94/4.0 (ranked first)</p>
 
-## working
 **Huawei Technologies Co.Ltd**
 <div style="float:left; text-align:left"><i>Intern, Application Innovation Laboratorys</i></div> 
 <div style="float:right; text-align:right"><i>June. 2022 - now</i></div><br/>
 <p>Planning and Control for various robots</p>
 
+**[FastLab](http://zju-fast.com/) of Zhejiang University**
+<div style="float:left; text-align:left"><i>Visiting Student of FastLab, supervised by [Fei Gao](http://zju-fast.com/fei-gao/)</i></div> 
+<div style="float:left; text-align:left"><i>Oct. 2023 - Nov. 2023</i></div> 
+
 ## Research Experiences
 
 
-**Realtime wholebody control of the mobile manipulator in cluttered environment**
+**RAMPAGE: Towards Whole-body, Real-Time and Agile Motion Planning in Dynamic Cluttered Environments for Mobile Manipulators**
 <div style="float:left; text-align:left">Application Innovate Laboratory, Huawei</div> <div style="float:right; text-align:right"><i>2022.10 - present</i></div>  
 <br />
 Advisor: Dr. Chen Chen
 <ul>
 <li>
-   Construct the occupancy grid map and ESDF based on <a href="https://github.com/HKUST-Aerial-Robotics/FIESTA" title="FIESTA">FIESTA</a>. Then bias the sample of RRT* to get an initial guiding path according to the topological map in Cartesian space. 
+    A novel hierarchical topology-guided searching method for the MMs is developed to find an initial whole-body kinodynamic trajectory in real time (30ms).
 </li>
 <li>
-  <p> Propose and analyse the adaptive MPC theoretically to improve the convergence and optimality in complex environments where multiple non-convex costs or constraints exist</p>
+  <p> We derive and implement a whole-body trajectory optimization method which naturally integrates the planning and control module (IPC) in an augmented Lagrangian differential dynamic programming (AL-DDP) form.</p>
 </li>
 <li>
-  <p>The proposed framework is verified through experiments about picking and placing a cup gracefully in cluttered environments.</p>
+  <p>We make use of a real-time constructed ESDF map to achieve low-cost high-speed collision calculation against dynamic obstacles in batch, with the MM body being approximated by sphere decomposition.</p>
 </li>
 </ul>
 
-**Learning the coordination motion of mobile  manipulators through human demonstration**
+**Learning the coordination motion of mobile manipulators through human demonstration**
 <div style="float:left; text-align:left">School of Automation Science and Engineering, SCUT</div> <div style="float:right; text-align:right"><i>2022.01 - 2022.09</i></div>
 <p> <br />
 Advisor: Prof. Chenguang Yang</p>
