@@ -77,6 +77,37 @@ the mobile manipulator to perform tasks.</p>
 </ul>
 
 ## Project Experiences
+
+**Low-cost and effient mapping, planning (SE3) and control for multicopter in embedded system**
+<div style="float:left; text-align:left">Application Innovate Laboratory, Huawei. FastLab, Zhejiang University</div> <div style="float:right; text-align:right"><i>2023.2 - 2023.11</i></div>
+<p> <br />
+Advisor: Dr. Chen Chen. Dr. Zehui Meng. Prof. Fei Gao</p>
+<ul>
+<li>
+  <p> 基于两个特性的建图.NPU加速</p>
+</li>
+<li>
+  <p> IPC+RCESDF+MPCC</p>
+</li>
+<li>
+  <p> 凸包+MINCO实现SE3</p>
+</li>
+</ul>
+**Pedestrian following and collision avoidance with spatial-temporal optimization for differential car **
+<div style="float:left; text-align:left">Application Innovate Laboratory, Huawei. FastLab, Zhejiang University</div> <div style="float:right; text-align:right"><i>2023.2 - 2023.11</i></div>
+<p> <br />
+Advisor: Dr. Chen Chen. Dr. Zehui Meng. Prof. Fei Gao</p>
+<ul>
+<li>
+  <p> Astar</p>
+</li>
+<li>
+  <p> 视角跟随滤波</p>
+</li>
+<li>
+  <p> 时空联合优化</p>
+</li>
+</ul>
 **Self-balanced smart car with wireless charging capability**
 <div style="float:left; text-align:left">School of Automation Science and Engineering, SCUT</div> <div style="float:right; text-align:right"><i>2020.01 - 2020.08</i></div>
 <p> <br />
@@ -106,17 +137,6 @@ Advisor: Dr. Chen Chen</p>
 </li>
 </ul>
 
-**Calibration and fusion of multi-sensors**
-<div style="float:left; text-align:left">China-Singapore International Joint Research Institute, Guangzhou</div> <div style="float:right; text-align:right"><i>2021.12 - 2022.02</i></div>
-<br/>
-<ul>
-<li>
-  <p> Synchronize and rectify the multimodal information collected from the LIDAR-RGB-IR suite. Calibrate the intrinsics and extrinsics of different sensors.</p>
-</li>
-<li>
-  <p> Train YOLO V5 on the COCO dataset for 2D target detection, based on which the 3D pointclouds segmentation and classification are used to evaluate the 3D position.</p>
-</li>
-</ul>
 
 ## Honor & Awards
 
@@ -134,10 +154,10 @@ Advisor: Dr. Chen Chen</p>
 ## Skills
 
 **Programming and Learning Framework:**
-<p>Python, MATLAB, C/C++, PyTorch, Pybullet</p>  
+<p>Python, MATLAB, C/C++, PyTorch, Pybullet, Airsim, Embedded System</p>  
 
 **Robotics:**
-<p>DH, wholebody control, Admittance/Impedance Control, Gravity Compensation,  Shared control, teleoperation</p>
+<p>Wholebody control, Peception and mapping, Convex Optimization, Admittance/Impedance Control, Gravity Compensation, teleoperation</p>
 
 **Hardware Experience:**
-<p>Franka, UR10, Mobile Manipulator, Robotiq 2F85, Vicon, Touch X, ATI sensors, STM32</p>
+<p>Multicopter, [Diablo](https://en.directdrive.com/) Franka, UR, Mobile Manipulator, Robotiq 2F85, Vicon, Touch X, ATI sensors, STM32</p>
