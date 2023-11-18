@@ -30,7 +30,7 @@ My research interests are **wholebody planning and control** for different robot
 <p>Planning and Control for various robots</p>
 
 **[FastLab](http://zju-fast.com/) of Zhejiang University**
-<div style="float:left; text-align:left"><i>Visiting Student of FastLab, supervised by [Fei Gao](http://zju-fast.com/fei-gao/)</i></div> 
+<div style="float:left; text-align:left"><i>Visiting Student of FastLab, supervised by Prof.Fei Gao</i></div> 
 <div style="float:left; text-align:left"><i>Oct. 2023 - Nov. 2023</i></div> 
 
 ## Research Experiences
