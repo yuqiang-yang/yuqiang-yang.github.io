@@ -30,7 +30,8 @@ My research interests are **wholebody planning and control** for different robot
 <p>Planning and Control for various robots</p>
 
 **[FastLab](http://zju-fast.com/) of Zhejiang University**
-<div style="float:left; text-align:left"><i>Visiting Student of FastLab, supervised by Prof.Fei Gao</i></div> 
+<div style="float:left; text-align:left"><i>Visiting Student of FastLab, supervised by Prof. <a href="http://zju-fast.com/fei-gao
+">Fei Gao</a></i></div> 
 <div style="float:left; text-align:left"><i>Oct. 2023 - Nov. 2023</i></div> 
 
 ## Research Experiences
@@ -158,6 +159,5 @@ Advisor: Dr. Chen Chen</p>
 
 **Robotics:**
 <p>Wholebody control, Peception and mapping, Convex Optimization, Admittance/Impedance Control, Gravity Compensation, teleoperation</p>
-
 **Hardware Experience:**
-<p>Multicopter, [Diablo](https://en.directdrive.com/) Franka, UR, Mobile Manipulator, Robotiq 2F85, Vicon, Touch X, ATI sensors, STM32</p>
+<p>Multicopter, <a href="https://en.directdrive.com/">Diablo</a> Franka, UR, Mobile Manipulator, Robotiq 2F85, Vicon, Touch X, ATI sensors, STM32</p>
