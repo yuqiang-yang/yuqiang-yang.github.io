@@ -11,7 +11,7 @@ redirect_from:
 
 I am Yuqiang Yang, a master candidate at [South China University of Technology](https://www.scut.edu.cn/new/), supervised by [Prof. Chenguang Yang](https://scholar.google.com/citations?user=e8io0fYAAAAJ&hl=zh-CN&oi=ao). Now I am also working as an intern at Application Innovate Laboratory, [Huawei Technologies Co.Ltd](www.huawei.com).
 
-My research interests are **wholebody planning and control** for different robots such as **mobile manipulator, multicopter and car**. Specifically, I have been exploring and exploiting the potentiality of the wheeled mobile manipulators to avoiding collision aggressively in a wholebody manner and finishing pick-and-place task in 3d cluttered dynamic environment. Besides, I am working towards the low-cost and efficient mapping, planning and control framework for **multicopter** in unstructed environment. I have sufficient engineering experience on deploying algorithms in various robotic scenarios such as agile collision avoidance, pedestrian following and picking-placing. The goal of my research is to endow robots with **agile mobility and manoeuvrability** in a 3d cluttered **dynamic** environment.
+My research interests are **wholebody planning and control** for different robots such as **mobile manipulator, quadrotor and car**. Specifically, I have been exploring and exploiting the potentiality of the wheeled mobile manipulators to avoiding collision aggressively in a wholebody manner and finishing pick-and-place task in 3d cluttered dynamic environment. Besides, I am working towards the low-cost and efficient state estimation (Visual Inertial Odometry) , mapping (Occupancy Grid Map and Euclidean Signed Distance Field), planning and control (SE3) framework for **quadrotor** in unstructed environment. I have sufficient engineering experience on deploying algorithms in various robotic scenarios such as agile collision avoidance, pedestrian following and picking-placing. The goal of my research is to endow robots with **agile mobility and manoeuvrability** in a 3d cluttered **dynamic** environment.
 
 ## Education and Working
 **South China University of Technology**
@@ -40,70 +40,74 @@ My research interests are **wholebody planning and control** for different robot
 ">Fei Gao</a></p>
 
 ## Research Experiences
-**RAMPAGE: Towards Whole-body, Real-Time and Agile Motion Planning in Dynamic Cluttered Environments for Mobile Manipulators**
-<div style="float:left; text-align:left">Application Innovate Laboratory, Huawei</div> <div style="float:right; text-align:right"><i>2022.10 - present</i></div>  
+**RAMPAGE: Towards Whole-body, Real-Time and Agile Motion Planning in Dynamic Cluttered Environments for Mobile Manipulators** (T-IE)
+<div style="float:left; text-align:left">Application Innovate Laboratory, Huawei</div> <div style="float:right; text-align:right"><i>2022.10 - 2023.12</i></div>  
 <br />
-Advisor: Dr. Chen Chen
+Advisor: Dr. <a href="https://scholar.google.com.hk/citations?user=yO5K6xwAAAAJ&hl=th">Zehui Meng</a>
 <ul>
 <li>
-    A novel hierarchical topology-guided searching method for the MMs is developed to find an initial whole-body kinodynamic trajectory in real time (30ms).
+    A novel <b>hierarchical topology-guided</b> searching method for the MMs is developed to find an initial whole-body kinodynamic trajectory in real time (30ms), striking the balance in the success rate and the efficiency.
 </li>
 <li>
-  <p> We derive and implement a whole-body trajectory optimization method which naturally integrates the planning and control module (IPC) in an augmented Lagrangian differential dynamic programming (AL-DDP) form.</p>
+  <p> We derive and implement a whole-body trajectory optimization method which naturally <b>integrates the planning and control module</b> (IPC) in an augmented Lagrangian differential dynamic programming (AL-DDP) form.</p>
 </li>
 <li>
-  <p>We make use of a real-time constructed ESDF map to achieve low-cost high-speed collision calculation against dynamic obstacles in batch, with the MM body being approximated by sphere decomposition.</p>
+  <p>We make use of a <b>real-time constructed ESDF map</b> to achieve low-cost high-speed collision calculation against dynamic obstacles in batch, with the MM body being approximated by <b>sphere decomposition</b>.</p>
 </li>
 <li>
 Benchmark
 comparisons and extensive experiments demonstrate that
 the proposed framework can plan whole-body collision-free
-trajectories in real-time with a high success rate and accurately execute them at an average speed of 1.86m/s among
-dynamic obstacles with a maximum speed of 2m/s
+trajectories in real-time with a high success rate and accurately execute them at an <b>average speed of 1.86m/s</b> among
+dynamic obstacles with a maximum speed of 2m/s.
 </li>
 </ul>
 
-**Learning the coordination motion of mobile manipulators through human demonstration**
-<div style="float:left; text-align:left">School of Automation Science and Engineering, SCUT</div> <div style="float:right; text-align:right"><i>2022.01 - 2022.09</i></div>
+**Learn to Coordinate: a Whole-Body Learning from Demonstration Framework for Differential Drive Mobile Manipulators** (IEEE SMC 2023)
+<div style="float:left; text-align:left">School of Automation Science and Engineering, SCUT</div> <div style="float:right; text-align:right"><i>2022.04 - 2022.09</i></div>
 <p> <br />
 Advisor: Prof. Chenguang Yang</p>
 <ul>
 <li>
   <p>Propose a
-whole-body LfD framework through Gaussian Process, which
+whole-body learning from demonstration framework through <b>Gaussian Process</b>, which
 endows the mobile manipulator’s skill learning process with
 features of large-scale convergence, coordination working and
-disturbance rejection, after just a few human demonstrations.</p>
+disturbance rejection, after just <b>a few human demonstrations</b>.</p>
 </li>
 <li>
   <p>An
 efficient kinesthetic teaching method is devised based on the
-weighted least-norm (WLN) inverse kinematics solution and an
+<b>weighted least-norm (WLN)</b> inverse kinematics solution and an
 admittance controller, which facilitates human users to guide
 the mobile manipulator to perform tasks.</p>
 </li>
 <li>
   <p> The framework allows for human-in-the-loop correction when the whole-body is conducting a task.</p>
 </li>
+<li>
+  <p> We also implement a model-based and efficient <b>door openning</b> for mobile manipulator, even under <b>random disturbance</b>.</p>
+</li>
 </ul>
 
 ## Project Experiences
-**Low-cost and effient mapping, planning (SE3) and control for multicopter in embedded system**
-<div style="float:left; text-align:left">Application Innovate Laboratory, Huawei. FastLab, Zhejiang University</div> <div style="float:right; text-align:right"><i>2023.2 - 2023.11</i></div>
+**Low-cost and effient location, mapping, planning (SE3) and control for multicopter in embedded system**
+<div style="float:left; text-align:left">Application Innovate Laboratory, Huawei; FastLab, Zhejiang University</div> <div style="float:right; text-align:right"><i>2023.2 - present</i></div>
 <p> <br />
-Advisor: Dr. Chen Chen. Dr. Zehui Meng. Prof. Fei Gao</p>
+Advisor: Dr. <a href="https://scholar.google.com.hk/citations?user=yO5K6xwAAAAJ&hl=th">Zehui Meng</a>; Prof. <a href="https://scholar.google.com.hk/citations?user=4RObDv0AAAAJ&hl=zh-CN">Fei Gao</a></p>
 <ul>
 <li>
-  <p> We design and implement a low-cost efficient occupancy grid map (OGM) updating algorithm with the features of incremental inflation and spatial-temporal sliding windows. This enables a fast occupancy infomation update in large environment.</p>
+ <p> The VIO is improved from <a href="https://github.com/HKUST-Aerial-Robotics/VINS-Fusion">Vins-Fusion</a> to achieve best performance in a low-performance chip. The front-end feature extraction part is changed to a <b>learning-based feature </b><a href="https://github.com/facebookresearch/silk">Silk</a>, boosting the computation efficiency though an <b>nerual processing unit (NPU)</b>. The back-end combines the filter-based and optimization-based methods to strike a good balance between the computation efficency and the location precision. </p>
 </li>
 <li>
-  <p> The volumetric projection operator is accelerated through algorihtm decomposition in nerual processing unit. </p>
+  <p> We design and implement a low-cost efficient occupancy grid map (OGM) updating algorithm with the features of <b>incremental inflation</b> and <b>spatial-temporal sliding windows</b>. This enables a fast occupancy infomation update in large environment.</p>
+</li>
+
+<li>
+  <p> A <b>robot-centric ESDF</b> (RC-ESDF) is utilized to represent the collision cost in the back-end optimization of our model prediected contour control (MPCC). This <b>lazy evaluation strategy</b> saves many times and calculations, allowing to plan and excute agressive trajectory in unknown environment.</p>
 </li>
 <li>
-  <p> A robot-centric ESDF (RC-ESDF) is utilized to represent the collision cost in the back-end optimization of our model prediected contour control problem (MPCC). This lazy evaluation strategy saves many times and calculations, allowing to plan and excute agressive trajectory in unknown environment.</p>
-</li>
-<li>
-  <p> Construct a safe flight corridor (SFC) consisting of many convex polytopes. Then MINCO trajectory will be optimized and executed with a finely tuned controller considering the full dynamics to make the multicoter cross a narrow gap. </p>
+  <p> We also construct a <b>safe flight corridor</b> (SFC) consisting of many convex polytopes. Then <a href="https://github.com/ZJU-FAST-Lab/GCOPTER">MINCO</a> trajectory will be optimized and executed with a finely tuned controller considering the <b>full dynamics</b> to make the multicoter cross a narrow gap. </p>
 </li>
 </ul>
 
@@ -114,13 +118,13 @@ Advisor: Dr. Chen Chen. Dr. Zehui Meng. Prof. Fei Gao</p>
 Advisor: Dr. Chen Chen. Dr. Zehui Meng. Prof. Fei Gao</p>
 <ul>
 <li>
-  <p> A multi-level hybrid astar algorithm is used to find intial kinodynamic trajecory to the future position (predicted by EKF) in a certain horizon. It considers the object occlusion, uncertainty and collision simultaneously.</p>
+  <p> A multi-level hybrid A* algorithm is used to find intial kinodynamic trajecory to the future position (predicted by EKF) in a certain horizon. It considers the <b>object occlusion, uncertainty and collision</b> simultaneously.</p>
 </li>
 <li>
   <p> We filter the object pointcloud of OUSTER lidar based on the bounding box generated by the visual perception. After then, the regristerd pointcloud by Fast-Lio2 will be considered as obstacles.</p>
 </li>
 <li>
-  <p> The initial trajectory parameterized by MINCO is optimized spatially and temporally. A low-level MPC considering the kinematics and communication delay is implemented to accurately track the planning trajecoty.</p>
+  <p> The initial trajectory parameterized by MINCO is optimized <b>spatially and temporally</b>. A low-level MPC considering the kinematics and communication delay is implemented to accurately track the planning trajecoty.</p>
 </li>
 </ul>
 
@@ -136,7 +140,7 @@ Advisor: Dr. An Chen</p>
   <p> Control the position and orientation of the two-wheeled car to complete a complex race track with different elements such as circles and slopes. The perception information mainly comes from the onboard IMU and electromagnetic sensors.</p>
 </li>
 <li>
-  <p> We finished the race in fifth national ranking with a time of 23.8s and won the first prize.</p>
+  <p> We finished the race in fifth national ranking with a time of 23.8s and won the <b>first prize</b>.</p>
 </li>
 </ul>
 
@@ -146,7 +150,7 @@ Advisor: Dr. An Chen</p>
 Advisor: Dr. Chen Chen</p>
 <ul>
 <li>
-  <p>Train GGCNN for the perception of the objects' pose and the grasp quality. The inputs of GGCNN are pointclouds while the outputs are the grasp quality, width and orientation.</p>
+  <p>Train <a href="https://github.com/dougsm/ggcnn">GGCNN</a>  for the perception of the objects' pose and the grasp quality. The inputs of GGCNN are pointclouds while the outputs are the grasp quality, width and orientation.</p>
 </li>
 <li>
   <p> Jointly consider the manipulability, energy, manipulator orientation and path tracking in the QP solvers. The dynamic-weighted QP is implemented based on the tracking error to achieve graceful picking-and-placing.</p>
