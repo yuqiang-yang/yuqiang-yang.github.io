@@ -3,6 +3,10 @@ main:
   - title: "Projects' Details"
     url: /publications/
 
+  - title: "Quadrotor"
+    url: /quadrotor/
+  - title: "Car"
+    url: /car/
   # - title: "Talks"
   #   url: /talks/    
 
