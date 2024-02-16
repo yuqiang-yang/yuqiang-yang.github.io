@@ -10,13 +10,15 @@ author_profile: true
 <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
 
 {% endif %}
+I have done many projects about the location, mapping, planning and control for quadrotors on a low-performance chip. These projects are to make the quadrotor fly and explore in a unknown cluttered environment. Some demonstrations are listed as follows.
 
-<center><h2>Learning the coordination motion of mobile manipulators through human demonstration</h2></center>
-<p> &emsp;  This research is to allow the mobile manipulator’s skill learning process with features of large-scale convergence, coordination working and disturbance rejection, after just a few human demonstrations.</p>
+<center><h2>Real-time location, planning and control in unknown outdoor and indoor environment</h2></center>
+<p> &emsp;  This research is to allow the quadrotor to fly in a unknown environments with only on-board sensors. A visual inertial odomery is used for location, improved from Vins-Fusion. MINCO is used to parameterize the trajectory while a L-BFGS optimizer is to solve the trajectory optimization in both spatial and 
+  temporal dimension. Then a SE3 controller based on inverse differential flatness mapping for quadrotor is used for low-level control. </p>
 <!-- <video id="video" controls="" preload="none">
       <source id="mp4" src="../files/coordination.mp4" type="video/mp4">
 </videos> -->
 <video width="960" height="540" controls style="width= 100%; height=100%; object-fit: fill">
-  <source src="../files/coordination.mp4" type="video/mp4">
+  <source src="../files/collision_avoidance_quadrotor.mp4" type="video/mp4">
 </video>
 <br>
