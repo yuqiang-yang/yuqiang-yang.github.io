@@ -4,6 +4,14 @@ title: "Car"
 permalink: /teaching/
 author_profile: true
 ---
+<center><h2>Pedestrian following and collision avoidance with spatial-temporal optimization for differential car
+</h2></center>
+<p>&emsp; A multi-level hybrid A* algorithm is used to find intial kinodynamic trajecory to the future position (predicted by EKF) in a certain horizon. It considers the object occlusion, uncertainty and collision simultaneously. 
+  The initial trajectory parameterized by MINCO is optimized spatially and temporally. A low-level MPC considering the kinematics and communication delay is implemented to accurately track the planning trajecoty.
+</p>
+<video width="960" height="540" controls style="width= 100%; height=100%; object-fit: fill">
+  <source src="../files/follow.mp4" type="video/mp4">
+</video>
 
 {% include base_path %}
 <br>
@@ -12,3 +20,13 @@ author_profile: true
 <video width="960" height="540" controls style="width= 100%; height=100%; object-fit: fill">
   <source src="../files/race.mp4" type="video/mp4">
 </video>
+<br>
+
+<center><h2>Collision avoidance for quadruped</h2></center>
+<p>&emsp; This is a toy example. We use the same framework for differential car to plan the linear and angular velocity of the quadruped.
+  Then the velocity is controlled by the high-level API of Unitree A1.
+</p>
+<video width="960" height="540" controls style="width= 100%; height=100%; object-fit: fill">
+  <source src="../files/quadruped.mp4" type="video/mp4">
+</video>
+<br>
