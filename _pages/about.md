@@ -153,7 +153,7 @@ Advisor: Dr. Chen Chen</p>
   <p>Train <a href="https://github.com/dougsm/ggcnn">GGCNN</a>  for the perception of the objects' pose and the grasp quality. The inputs of GGCNN are pointclouds while the outputs are the grasp quality, width and orientation.</p>
 </li>
 <li>
-  <p> Jointly consider the manipulability, energy, manipulator orientation and path tracking in the QP solvers. The dynamic-weighted QP is implemented based on the tracking error to achieve graceful picking-and-placing.</p>
+  <p> Jointly consider the manipulability, energy, manipulator orientation and path tracking in the QP solvers. The <b>dynamic-weighted QP</b> is implemented based on the tracking error to achieve graceful picking-and-placing.</p>
 </li>
 </ul>
 
