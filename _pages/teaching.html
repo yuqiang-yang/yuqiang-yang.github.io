@@ -4,7 +4,9 @@ title: "Car"
 permalink: /teaching/
 author_profile: true
 ---
-<center><h2>Pedestrian following and collision avoidance with spatial-temporal optimization for differential car
+The planning for a mobile base differs from the planning for quadrotor on the kinematics. However, we use differential flatness on the quadrotor or differential car to elimilate the 
+system kinematics constraints. That means, no <b>explicit</b> kinematics constraints are considered in the planning part. All constraints on the body are transfered into the flatness space as general non-linear
+ constraints. L-BFGS solver is used to solve this general NLP problem after a reasonable initial trajectory is given.<center><h2>Pedestrian following and collision avoidance with spatial-temporal optimization for differential car
 </h2></center>
 <p>&emsp; A multi-level hybrid A* algorithm is used to find intial kinodynamic trajecory to the future position (predicted by EKF) in a certain horizon. It considers the object occlusion, uncertainty and collision simultaneously. 
   The initial trajectory parameterized by MINCO is optimized spatially and temporally. A low-level MPC considering the kinematics and communication delay is implemented to accurately track the planning trajecoty.
