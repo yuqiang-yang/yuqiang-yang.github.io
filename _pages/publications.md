@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Projects' Details"
+title: "Mobile Manipulator"
 permalink: /publications/
 author_profile: true
 redirect_from: 
@@ -22,6 +22,20 @@ Some video of the projects are as follows.
 <br>
 
 
+<center><h2>Graceful wholebody pick-and-place for mobile manipulator</h2></center>
+<p>&emsp; Jointly consider the manipulability, energy, manipulator orientation and path tracking in the QP solvers. The dynamic-weighted QP is implemented based on the tracking error to achieve graceful picking-and-placing.</p>
+<video width="960" height="540" controls style="width= 100%; height=100%; object-fit: fill">
+  <source src="../files/graceful_pick.mp4" type="video/mp4">
+</video> 
+<br>
+
+<center><h2>Open the door while rejecting random disturbance with a mobile manipulator</h2></center>
+<p>&emsp; Manually design a door-opening trajectory and use a whole-body admittance controller to track. By detecting the force on the end-effector of the mobile manipulator, the whole body can respond smoothly to external disturbance.</p>
+<video width="960" height="540" controls style="width= 100%; height=100%; object-fit: fill">
+  <source src="../files/door_open.mp4" type="video/mp4">
+</video> 
+<br>
+
 <center><h2>Learning the coordination motion of mobile manipulators through human demonstration</h2></center>
 <p> &emsp;  This research is to allow the mobile manipulator’s skill learning process with features of large-scale convergence, coordination working and disturbance rejection, after just a few human demonstrations.</p>
 <!-- <video id="video" controls="" preload="none">
@@ -33,22 +47,3 @@ Some video of the projects are as follows.
 <br>
 
 
-
-<center><h2>Realtime wholebody control of the mobile manipulator in cluttered environment(TO DO)</h2></center>
-<p>&emsp;The goal of this project is to enable mobile manipulators to plan and execute the manipulation in real-time in a cluttered environment.</p>
-<video width="960" height="540" controls style="width= 100%; height=100%; object-fit: fill">
-  <source src="../files/mpc.mp4" type="video/mp4">
-</video>
-<br>
-<center><h2>Graceful wholebody pick-and-place for mobile manipulator</h2></center>
-<p>&emsp; Jointly consider the manipulability, energy, manipulator orientation and path tracking in the QP solvers. The dynamic-weighted QP is implemented based on the tracking error to achieve graceful picking-and-placing.</p>
-<video width="960" height="540" controls style="width= 100%; height=100%; object-fit: fill">
-  <source src="../files/graceful_pick.mp4" type="video/mp4">
-</video> 
-<br>
-
-<center><h2>Self-balanced smart car with wireless charging capability</h2></center>
-<p>&emsp; This is our team's video in the national competition.</p>
-<video width="960" height="540" controls style="width= 100%; height=100%; object-fit: fill">
-  <source src="../files/race.mp4" type="video/mp4">
-</video>

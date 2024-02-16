@@ -1,16 +1,16 @@
 # main links links
 main:
-  - title: "Projects' Details"
+  - title: "Mobile Manipulator"
     url: /publications/
 
   # - title: "Quadrotor"
   #   url: /quadrotor/
   # - title: "Car"
   #   url: /car/
-  - title: "Talks"
+  - title: "Quadrotor"
     url: /talks/    
 
-  - title: "Teaching"
+  - title: "Car"
     url: /teaching/    
     
   # - title: "Portfolio"
