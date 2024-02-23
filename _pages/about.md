@@ -19,30 +19,27 @@ Specifically, I have explored and realized the posibility of allowing the mobile
 <div style="float:left; text-align:left"><i><b>South China University of Technology</b></i></div> <div style="float:right; text-align:right"><i>Sep. 2022 - Present</i></div>
 </br>Master, Robotics
 </br>Supervisor: Prof. <a href="https://scholar.google.com/citations?user=e8io0fYAAAAJ&hl=zh-CN&oi=ao">Chenguang Yang</a>
-<p>GPA: 3.82/4.0 (ranked first)</p>
-
-**South China University of Technology**
-<div style="float:left; text-align:left"><i>Bachelor, Automation</i></div> <br/>
-<div style="float:left; text-align:left">School of Automation Science and Engineering</div>
-<div style="float:right; text-align:right"><i>Sep. 2018 - Jun. 2022</i></div><br/>
+</br>GPA: 3.82/4.0 (ranked first)
+</br>
+</br>
+<div style="float:left; text-align:left"><i><b>South China University of Technology</b></i></div> <div style="float:right; text-align:right"><i>Sep. 2018 - Jun. 2022</i></div> 
+</br> Bachelor of Engineering, Automation
+</br> School of Automation Science and Engineering
 <p>GPA: 3.94/4.0 (ranked first)</p>
-
-
-**[FastLab](http://zju-fast.com/) of Zhejiang University**
-<div style="float:left; text-align:left"><i>Visiting Student</i></div> 
-<div style="float:right; text-align:right"><i>Oct. 2023 - Nov. 2023</i></div> <br/>
-<div style="float:left; text-align:left">Wholebody planning and precise control for multicopter</div>
-<p><br />Supervisor: Prof. <a href="http://zju-fast.com/fei-gao
-">Fei Gao</a></p>
-
-
+</br>
+<div style="float:left; text-align:left"><i><b> <a href="http://zju-fast.com/fei-gao">FastLab</a> of Zhejiang University</b></i></div> <div style="float:right; text-align:right"><i>Oct. 2023 - Nov. 2023</i></div> 
+</br> Visiting student
+</br> Wholebody planning and precise control for multicopter
+<br />Supervisor: Prof. <a href="http://zju-fast.com/fei-gao
+">Fei Gao</a>
 
 
 ## Research Experiences
 
 
 
-<div style="float:left; text-align:left"><b>Learn to Coordinate: a Whole-Body Learning from Demonstration Framework for Differential Drive Mobile Manipulators</b> <a href="https://yuqiang-yang.github.io/publications#open_door">Video1</a>, <a href="https://yuqiang-yang.github.io/publications#learning">Video2</a>, <a href="https://ieeexplore.ieee.org/abstract/document/10394442">PDF</a> <div style="float:right; text-align:right"><i>2022.04 - 2022.09</i></div>
+<div style="float:left; text-align:left"><b>Learn to Coordinate: a Whole-Body Learning from Demonstration Framework for Differential Drive Mobile Manipulators</b> 
+<a href="https://yuqiang-yang.github.io/publications#open_door">Video1</a>, <a href="https://yuqiang-yang.github.io/publications#learning">Video2</a>, <a href="https://ieeexplore.ieee.org/abstract/document/10394442">PDF</a></div> <div style="float:right; text-align:right"><i>2022.04 - 2022.09</i></div>
 <p> 
 Advisor: Prof. Chenguang Yang</p>
 <ul>
