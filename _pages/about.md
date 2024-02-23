@@ -61,31 +61,7 @@ dynamic obstacles with a maximum speed of 2m/s.
 </li>
 </ul>
 
-<div style="float:left; text-align:left"><b>Learn to Coordinate: a Whole-Body Learning from Demonstration Framework for Differential Drive Mobile Manipulators</b> <a href="https://yuqiang-yang.github.io/publications#open_door">Video1</a>, <a href="https://yuqiang-yang.github.io/publications#learning">Video2</a>, <a href="https://ieeexplore.ieee.org/abstract/document/10394442">PDF</a> <div style="float:right; text-align:right"><i>2022.04 - 2022.09</i></div>
-<p> 
-Advisor: Prof. Chenguang Yang</p>
-<ul>
-<li>
-  <p>Propose a
-whole-body learning from demonstration framework through <b>Gaussian Process</b>, which
-endows the mobile manipulator’s skill learning process with
-features of large-scale convergence, coordination working and
-disturbance rejection, after just <b>a few human demonstrations</b>.</p>
-</li>
-<li>
-  <p>An
-efficient kinesthetic teaching method is devised based on the
-<b>weighted least-norm (WLN)</b> inverse kinematics solution and an
-admittance controller, which facilitates human users to guide
-the mobile manipulator to perform tasks.</p>
-</li>
-<li>
-  <p> The framework allows for human-in-the-loop correction when the whole-body is conducting a task.</p>
-</li>
-<li>
-  <p> We also implement a model-based and efficient <b>door openning</b> for mobile manipulator, even under <b>random disturbance</b>.</p>
-</li>
-</ul>
+
 
 <h2> Project Experiences</h2>
 
