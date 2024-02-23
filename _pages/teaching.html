@@ -7,7 +7,7 @@ author_profile: true
 The planning for a mobile base differs from the planning for quadrotor on the kinematics. However, we use differential flatness on the quadrotor or differential car to elimilate the 
 system kinematics constraints. That means, no <b>explicit</b> kinematics constraints are considered in the planning part. All constraints on the body are transfered into the flatness space as general non-linear
  constraints. L-BFGS solver is used to solve this general NLP problem after a reasonable initial trajectory is given.<center><h2>Pedestrian following and collision avoidance with spatial-temporal optimization for differential car
-</h2></center>
+</h2 id="follow"></center>
 <p>&emsp; A multi-level hybrid A* algorithm is used to find intial kinodynamic trajecory to the future position (predicted by EKF) in a certain horizon. It considers the object occlusion, uncertainty and collision simultaneously. 
   The initial trajectory parameterized by MINCO is optimized spatially and temporally. A low-level MPC considering the kinematics and communication delay is implemented to accurately track the planning trajecoty.
 </p>
@@ -17,7 +17,7 @@ system kinematics constraints. That means, no <b>explicit</b> kinematics constra
 
 {% include base_path %}
 <br>
-<center><h2>Self-balanced smart car with wireless charging capability</h2></center>
+<center><h2 id="balance">Self-balanced smart car with wireless charging capability</h2></center>
 <p>&emsp; This is our team's video in the national competition.</p>
 <video width="960" height="540" controls style="width= 100%; height=100%; object-fit: fill">
   <source src="../files/race.mp4" type="video/mp4">

@@ -40,9 +40,8 @@ Specifically, I have explored and realized the posibility of allowing the mobile
 
 ## Research Experiences
 <div style="float:left; text-align:left"> <b>RAMPAGE: Towards Whole-body, Real-Time and Agile Motion Planning in Dynamic Cluttered Environments for Mobile Manipulators</b>  <a href="https://yuqiang-yang.github.io/publications#rampage">Video</a>,  <a href="https://github.com/yuqiang-yang/TIE-Supplementary-video">PDF</a> <div style="float:right; text-align:right"><i>2022.10 - 2023.12</i></div>  
-<br />
-<p>Accepted by IEEE Transaction on Industrial Electronics</p>
-Advisor: Dr. Chen Chen, Dr. <a href="https://scholar.google.com.hk/citations?user=yO5K6xwAAAAJ&hl=th">Zehui Meng</a>
+<p>Accepted to IEEE Transaction on Industrial Electronics</p>
+<p>Advisor: Dr. Chen Chen, Dr. <a href="https://scholar.google.com.hk/citations?user=yO5K6xwAAAAJ&hl=th">Zehui Meng</a></p>
 <ul>
 <li>
     A novel <b>hierarchical topology-guided</b> searching method for the MMs is developed to find an initial whole-body kinodynamic trajectory in real time (30ms), striking the balance in the success rate and the efficiency.
@@ -62,9 +61,8 @@ dynamic obstacles with a maximum speed of 2m/s.
 </li>
 </ul>
 
-**Learn to Coordinate: a Whole-Body Learning from Demonstration Framework for Differential Drive Mobile Manipulators** (IEEE SMC 2023)
-<div style="float:left; text-align:left">School of Automation Science and Engineering, SCUT</div> <div style="float:right; text-align:right"><i>2022.04 - 2022.09</i></div>
-<p> <br />
+<div style="float:left; text-align:left"><b>Learn to Coordinate: a Whole-Body Learning from Demonstration Framework for Differential Drive Mobile Manipulators</b> <a href="https://yuqiang-yang.github.io/publications#open_door">Video1</a>, <a href="https://yuqiang-yang.github.io/publications#learning">Video2</a>, <a href="https://ieeexplore.ieee.org/abstract/document/10394442">PDF</a> <div style="float:right; text-align:right"><i>2022.04 - 2022.09</i></div>
+<p> 
 Advisor: Prof. Chenguang Yang</p>
 <ul>
 <li>
@@ -90,7 +88,7 @@ the mobile manipulator to perform tasks.</p>
 </ul>
 
 ## Project Experiences
-**Low-cost and effient location, mapping, planning (SE3) and control for multicopter in embedded system**
+**Low-cost and effient location, mapping, planning and control for multicopter in embedded system** <a href="https://yuqiang-yang.github.io/talks#planning">Video1</a>, <a href="https://yuqiang-yang.github.io/talks#hover">Video2</a>, <a href="https://yuqiang-yang.github.io/talks#rcesdf">Video3</a>
 <div style="float:left; text-align:left">Application Innovate Laboratory, Huawei; FastLab, Zhejiang University</div> <div style="float:right; text-align:right"><i>2023.2 - present</i></div>
 <p> <br />
 Advisor: Dr. Chen Chen; Dr. <a href="https://scholar.google.com.hk/citations?user=yO5K6xwAAAAJ&hl=th">Zehui Meng</a>; Prof. <a href="https://scholar.google.com.hk/citations?user=4RObDv0AAAAJ&hl=zh-CN">Fei Gao</a></p>
@@ -105,12 +103,24 @@ Advisor: Dr. Chen Chen; Dr. <a href="https://scholar.google.com.hk/citations?use
 <li>
   <p> A <b>robot-centric ESDF</b> (RC-ESDF) is utilized to represent the collision cost in the back-end optimization of our model prediected contour control (MPCC). This <b>lazy evaluation strategy</b> saves many times and calculations, allowing to plan and excute agressive trajectory in unknown environment.</p>
 </li>
-<li>
-  <p> We also construct a <b>safe flight corridor</b> (SFC) consisting of many convex polytopes. Then <a href="https://github.com/ZJU-FAST-Lab/GCOPTER">MINCO</a> trajectory will be optimized and executed with a finely tuned controller considering the <b>full dynamics</b> to make the multicoter cross a narrow gap. </p>
-</li>
+
 </ul>
 
-**Pedestrian following and collision avoidance with spatial-temporal optimization for differential car**
+**SE3 planning and control for multicopter to cross narrow gap** <a href="https://yuqiang-yang.github.io/talks#se3">Video</a>
+<div style="float:left; text-align:left"> FastLab, Zhejiang University</div> <div style="float:right; text-align:right"><i>2023.2 - present</i></div>
+<p> <br />
+Advisor:  Prof. <a href="https://scholar.google.com.hk/citations?user=4RObDv0AAAAJ&hl=zh-CN">Fei Gao</a></p>
+<ul>
+<li>
+ <p> We also construct a <b>safe flight corridor</b> (SFC) consisting of many convex polytopes. Then <a href="https://github.com/ZJU-FAST-Lab/GCOPTER">MINCO</a> trajectory will be optimized and executed with a finely tuned controller considering the <b>full dynamics</b> to make the multicoter cross a narrow gap. </p>
+</li>
+<li>
+  <p> We design and implement a low-cost efficient occupancy grid map (OGM) updating algorithm with the features of <b>incremental inflation</b> and <b>spatial-temporal sliding windows</b>. This enables a fast occupancy infomation update in large environment.</p>
+</li>
+
+</ul>
+
+**Pedestrian following and collision avoidance with spatial-temporal optimization for differential car** <a href="https://yuqiang-yang.github.io/teaching#follow">Video</a>
 
 <div style="float:left; text-align:left">Application Innovate Laboratory, Huawei. FastLab, Zhejiang University</div> <div style="float:right; text-align:right"><i>2023.2 - 2023.11</i></div>
 <p> <br />
@@ -127,7 +137,7 @@ Advisor: Dr. Chen Chen. Dr. Zehui Meng. Prof. Fei Gao</p>
 </li>
 </ul>
 
-**Self-balanced smart car with wireless charging capability**
+**Self-balanced smart car with wireless charging capability** <a href="https://yuqiang-yang.github.io/teaching#balance">Video</a>
 <div style="float:left; text-align:left">School of Automation Science and Engineering, SCUT</div> <div style="float:right; text-align:right"><i>2020.01 - 2020.08</i></div>
 <p> <br />
 Advisor: Dr. An Chen</p>
@@ -143,7 +153,7 @@ Advisor: Dr. An Chen</p>
 </li>
 </ul>
 
-**Graceful wholebody pick-and-place for mobile manipulator**
+**Graceful wholebody pick-and-place for mobile manipulator** <a href="https://yuqiang-yang.github.io/talks#pick_and_place">Video</a>
 <div style="float:left; text-align:left">Application Innovate Laboratory, Huawei</div> <div style="float:right; text-align:right"><i>2022.10 - 2022.11</i></div>
 <p> <br />
 Advisor: Dr. Chen Chen</p>

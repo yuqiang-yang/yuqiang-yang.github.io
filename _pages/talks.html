@@ -12,7 +12,7 @@ author_profile: true
 {% endif %}
 I have done many projects about the location, mapping, planning and control for quadrotors on a low-performance chip. These projects are to make the quadrotor fly and explore in a unknown cluttered environment. Some demonstrations are listed as follows.
 
-<center><h2>Real-time location, planning and control in unknown outdoor and indoor environment</h2></center>
+<center><h2 id="planning">Real-time location, planning and control in unknown outdoor and indoor environment</h2></center>
 <p> &emsp;  This research is to allow the quadrotor to fly in a unknown environments with only on-board sensors. A visual inertial odomery is used for location, improved from Vins-Fusion. MINCO is used to parameterize the trajectory while a L-BFGS optimizer is to solve the trajectory optimization in both spatial and 
   temporal dimension. Then a SE3 controller based on inverse differential flatness mapping for quadrotor is used for low-level control. </p>
 <!-- <video id="video" controls="" preload="none">
@@ -23,7 +23,7 @@ I have done many projects about the location, mapping, planning and control for 
 </video>
 <br>
 
-<center><h2> Agressive crossing a narrow gap for quadrotor </h2></center>
+<center><h2 id="se3"> Agressive crossing a narrow gap for quadrotor </h2></center>
 <p> &emsp; Construct a safe flight corridor (SFC) consisting of many convex polytopes for SE3 planning. Finely tune a SE3 controller with thrust calibration to accurately tracking the large-attitude trajectory for multicopter. </p>
 <!-- <video id="video" controls="" preload="none">
       <source id="mp4" src="../files/coordination.mp4" type="video/mp4">
@@ -34,7 +34,7 @@ I have done many projects about the location, mapping, planning and control for 
 <br>
 
 
-<center><h2> High-prediction stable hovering for quadrotor with a visual inertial odomery </h2></center>
+<center><h2 id="hover"> High-prediction stable hovering for quadrotor with a visual inertial odomery </h2></center>
 <p> &emsp; Design a new compact and light-weight structure for quadrotor. Optimize the VIO algorithm for low latency and high prediction for hovering. </p>
 <!-- <video id="video" controls="" preload="none">
       <source id="mp4" src="../files/coordination.mp4" type="video/mp4">
@@ -45,7 +45,7 @@ I have done many projects about the location, mapping, planning and control for 
 <br>
 
 
-<center><h2> Robot-centic ESDF and Integrated planning and control</h2></center>
+<center><h2 id="rcesdf"> Robot-centic ESDF and Integrated planning and control</h2></center>
 <p> &emsp; This video show the comparison between <a href="https://github.com/ZJU-FAST-Lab/ego-planner"> ego-planning-v2</a> and our planner. Due to the loss of a front-end guiding, the ego-planner tend to plan a long and slow trajectory.</p>
 <!-- <video id="video" controls="" preload="none"> 
       <source id="mp4" src="../files/coordination.mp4" type="video/mp4">
