@@ -16,10 +16,10 @@ Specifically, I have explored and realized the posibility of allowing the mobile
 
 ## Education and Trainning
 
-<div style="float:left; text-align:left"><i><b>South China University of Technology</b></i></div> <div style="float:right; text-align:right"><i>Sep. 2022 - Present</i></div><br style="margin: 10px 0;"/>
-<div style="float:left; text-align:left">Master, Robotics</div><br style="margin: 10px 0;"/>
-<div style="float:left; text-align:left">Supervisor: Prof. <a href="https://scholar.google.com/citations?user=e8io0fYAAAAJ&hl=zh-CN&oi=ao">Chenguang Yang</a></div><br style="margin: 10px 0;"/>
-<div style="float:left; text-align:left">GPA: 3.82/4.0 (ranked first)</div><br style="margin: 10px 0;"/>
+<div style="float:left; text-align:left"><i><b>South China University of Technology</b></i></div> <div style="float:right; text-align:right"><i>Sep. 2022 - Present</i></div><br style="margin: 10px 0;">
+<div style="float:left; text-align:left">Master, Robotics</div><br style="margin: 10px 0;">
+<div style="float:left; text-align:left">Supervisor: Prof. <a href="https://scholar.google.com/citations?user=e8io0fYAAAAJ&hl=zh-CN&oi=ao">Chenguang Yang</a></div><br style="margin: 10px 0;">
+<div style="float:left; text-align:left">GPA: 3.82/4.0 (ranked first)</div><br style="margin: 10px 0;">
 
 <div style="float:left; text-align:left"><i><b>South China University of Technology</b></i></div> <div style="float:right; text-align:right"><i>Sep. 2018 - Jun. 2022</i></div> <br/>
 <div style="float:left; text-align:left">Bachelor of Engineering, Automation</div><br/>
