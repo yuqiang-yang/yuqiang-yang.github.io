@@ -201,7 +201,7 @@ Advisor: Dr. Chen Chen</p>
 ## Internship
 **Huawei Technologies Co.Ltd**
 <div style="float:left; text-align:left"><i>Intern, Application Innovation Laboratorys</i></div> 
-<div style="float:right; text-align:right"><i>June. 2022 - now</i></div></br>
+<div style="float:right; text-align:right"><i>June. 2022 - now</i></div><br/>
 <div style="float:left; text-align:left">Planning and Control for various robots</div>
 <p><br />Supervisor: Dr. Chen Chen, Dr. Zehui Meng</p>
 
@@ -214,9 +214,4 @@ Advisor: Dr. Chen Chen</p>
 <p>Wholebody control, Peception and mapping, Convex Optimization, Admittance/Impedance Control, Gravity Compensation, teleoperation</p>
 
 **Hardware Experience:**
-<p>Multicopter, <a href="https://en.directdrive.com/">Diablo</a>, Franka, UR, Mobile Manipulator, Robotiq 2F85, Vicon, Touch X, ATI sensors, STM32</p>## Internship
-**Huawei Technologies Co.Ltd**
-<div style="float:left; text-align:left"><i>Intern, Application Innovation Laboratorys</i></div> 
-<div style="float:right; text-align:right"><i>June. 2022 - now</i></div></br>
-<div style="float:left; text-align:left">Planning and Control for various robots</div>
-<p><br />Supervisor: Dr. Chen Chen, Dr. Zehui Meng</p>
+<p>Multicopter, <a href="https://en.directdrive.com/">Diablo</a>, Franka, UR, Mobile Manipulator, Robotiq 2F85, Vicon, Touch X, ATI sensors, STM32</p>
