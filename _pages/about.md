@@ -35,7 +35,6 @@ Specifically, I have explored and realized the posibility of allowing the mobile
 </div> <div style="float:right; text-align:right"><i>Sep. 2018 - Jun. 2022</i></div> <br/>
 
 <br/>
-<br/>
 
 
 
@@ -48,8 +47,7 @@ Specifically, I have explored and realized the posibility of allowing the mobile
  <div style="float:right; text-align:right"><i>Oct. 2023 - Nov. 2023</i></div> <br/>
 <br/>
 <br/>
-<br/>
-<br/>
+
 
 ## Research Experiences
 
