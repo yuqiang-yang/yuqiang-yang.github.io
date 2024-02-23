@@ -9,9 +9,8 @@ redirect_from:
 ---
 <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
 
-
 I have experience in the real-time perception, wholebody planning and control for mobile manipulators with differential base. Some videos about my projects and research on mobile manipulator are listed as follows. 
-<center><h2>RAMPAGE: Towards Whole-body, Real-Time and Agile Motion Planning in Dynamic Cluttered Environments for Mobile Manipulators</h2></center>
+<center><h2 id="rampage">RAMPAGE: Towards Whole-body, Real-Time and Agile Motion Planning in Dynamic Cluttered Environments for Mobile Manipulators</h2></center>
 <p> &emsp;  This research is to allow the mobile manipulator to finish manipulation tasks while avoiding the collision in 3D dynamic environment with only onboard sensing. More supplementary materials are <a href="https://github.com/yuqiang-yang/TIE-Supplementary-video">here</a>.</p>
 <!-- <video id="video" controls="" preload="none">
       <source id="mp4" src="../files/coordination.mp4" type="video/mp4">

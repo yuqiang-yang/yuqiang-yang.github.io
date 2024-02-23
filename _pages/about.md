@@ -14,36 +14,34 @@ I am Yuqiang Yang, a master student at [South China University of Technology](ht
    
 Specifically, I have explored and realized the posibility of allowing the mobile manipulators to efficiently pick and place in a **wholebody** manner while avoidance collision smoothly **in cluttered dynamic environment** full of chairs, tables and shelves. Besides, I am working towards the low-cost and accurate state estimation (Visual Inertial Odometry) , mapping (Occupancy Grid Map and Euclidean Signed Distance Field), planning and control (SE3) framework for **quadrotor** in complex environments. For **autonomous car** with non-holonomic constraints, I investigated the **real-time** perception, mapping and collision-free motion planning to follow and serve the target person well. I have sufficient engineering experience on deploying algorithms in various robotic scenarios such as environmental reconstrunction, household service and car racing, etc. 
 
-## Education and Working
+## Education and Trainning
 **South China University of Technology**
 <div style="float:left; text-align:left"><i>Master, Robotics</i></div> <div style="float:right; text-align:right"><i>Sep. 2022 - Present</i></div><br />
 <div style="float:left; text-align:left">School of Automation Science and Engineering</div>
-<p><br />Supervisor: Prof. Chenguang Yang</p>
+<p><br />Supervisor: Prof. <a href="https://scholar.google.com/citations?user=e8io0fYAAAAJ&hl=zh-CN&oi=ao">Chenguang Yang</a></p>
+<p>GPA: 3.82/4.0 (ranked first)</p>
 
 **South China University of Technology**
-<div style="float:left; text-align:left"><i>Bachelor, School of Automation Science and Engineering</i></div> 
+<div style="float:left; text-align:left"><i>Bachelor, Automation</i></div> <br/>
+<div style="float:left; text-align:left">School of Automation Science and Engineering</div>
 <div style="float:right; text-align:right"><i>Sep. 2018 - Jun. 2022</i></div><br/>
 <p>GPA: 3.94/4.0 (ranked first)</p>
-
-**Huawei Technologies Co.Ltd**
-<div style="float:left; text-align:left"><i>Intern, Application Innovation Laboratorys</i></div> 
-<div style="float:right; text-align:right"><i>June. 2022 - now</i></div><br/>
-<div style="float:left; text-align:left">Planning and Control for various robots</div>
-<p><br />Supervisor: Dr. Chen Chen, Dr. Zehui Meng</p>
-
 
 
 **[FastLab](http://zju-fast.com/) of Zhejiang University**
 <div style="float:left; text-align:left"><i>Visiting Student of FastLab</i></div> 
 <div style="float:right; text-align:right"><i>Oct. 2023 - Nov. 2023</i></div> <br/>
-<div style="float:left; text-align:left">SE3 Planning and Control for multicopter</div>
+<div style="float:left; text-align:left">Wholebody planning and precise control for multicopter</div>
 <p><br />Supervisor: Prof. <a href="http://zju-fast.com/fei-gao
 ">Fei Gao</a></p>
 
+
+
+
 ## Research Experiences
-**RAMPAGE: Towards Whole-body, Real-Time and Agile Motion Planning in Dynamic Cluttered Environments for Mobile Manipulators** (T-IE)
-<div style="float:left; text-align:left">Application Innovate Laboratory, Huawei</div> <div style="float:right; text-align:right"><i>2022.10 - 2023.12</i></div>  
+<div style="float:left; text-align:left"> <b>RAMPAGE: Towards Whole-body, Real-Time and Agile Motion Planning in Dynamic Cluttered Environments for Mobile Manipulators</b>  <a href="https://yuqiang-yang.github.io/publications#rampage">Video</a>,  <a href="https://github.com/yuqiang-yang/TIE-Supplementary-video">PDF</a> <div style="float:right; text-align:right"><i>2022.10 - 2023.12</i></div>  
 <br />
+<p>Accepted by IEEE Transaction on Industrial Electronics</p>
 Advisor: Dr. Chen Chen, Dr. <a href="https://scholar.google.com.hk/citations?user=yO5K6xwAAAAJ&hl=th">Zehui Meng</a>
 <ul>
 <li>
@@ -171,6 +169,12 @@ Advisor: Dr. Chen Chen</p>
 </ul>
 
 
+## Internship
+**Huawei Technologies Co.Ltd**
+<div style="float:left; text-align:left"><i>Intern, Application Innovation Laboratorys</i></div> 
+<div style="float:right; text-align:right"><i>June. 2022 - now</i></div><br/>
+<div style="float:left; text-align:left">Planning and Control for various robots</div>
+<p><br />Supervisor: Dr. Chen Chen, Dr. Zehui Meng</p>
 
 ## Skills
 
@@ -181,4 +185,9 @@ Advisor: Dr. Chen Chen</p>
 <p>Wholebody control, Peception and mapping, Convex Optimization, Admittance/Impedance Control, Gravity Compensation, teleoperation</p>
 
 **Hardware Experience:**
-<p>Multicopter, <a href="https://en.directdrive.com/">Diablo</a>, Franka, UR, Mobile Manipulator, Robotiq 2F85, Vicon, Touch X, ATI sensors, STM32</p>
+<p>Multicopter, <a href="https://en.directdrive.com/">Diablo</a>, Franka, UR, Mobile Manipulator, Robotiq 2F85, Vicon, Touch X, ATI sensors, STM32</p>## Internship
+**Huawei Technologies Co.Ltd**
+<div style="float:left; text-align:left"><i>Intern, Application Innovation Laboratorys</i></div> 
+<div style="float:right; text-align:right"><i>June. 2022 - now</i></div><br/>
+<div style="float:left; text-align:left">Planning and Control for various robots</div>
+<p><br />Supervisor: Dr. Chen Chen, Dr. Zehui Meng</p>
