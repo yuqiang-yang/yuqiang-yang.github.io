@@ -16,9 +16,9 @@ Specifically, I have explored and realized the posibility of allowing the mobile
 
 ## Education and Trainning
 
-<div style="float:left; text-align:left"><i><b>South China University of Technology</b></i></div> <div style="float:right; text-align:right"><i>Sep. 2022 - Present</i></div><br />
-<p>Master, Robotics</p>
-<p>Supervisor: Prof. <a href="https://scholar.google.com/citations?user=e8io0fYAAAAJ&hl=zh-CN&oi=ao">Chenguang Yang</a></p>
+<div style="float:left; text-align:left"><i><b>South China University of Technology</b></i></div> <div style="float:right; text-align:right"><i>Sep. 2022 - Present</i></div>
+</br>Master, Robotics
+</br>Supervisor: Prof. <a href="https://scholar.google.com/citations?user=e8io0fYAAAAJ&hl=zh-CN&oi=ao">Chenguang Yang</a>
 <p>GPA: 3.82/4.0 (ranked first)</p>
 
 **South China University of Technology**
@@ -38,6 +38,35 @@ Specifically, I have explored and realized the posibility of allowing the mobile
 
 
 
+## Research Experiences
+
+
+
+<div style="float:left; text-align:left"><b>Learn to Coordinate: a Whole-Body Learning from Demonstration Framework for Differential Drive Mobile Manipulators</b> <a href="https://yuqiang-yang.github.io/publications#open_door">Video1</a>, <a href="https://yuqiang-yang.github.io/publications#learning">Video2</a>, <a href="https://ieeexplore.ieee.org/abstract/document/10394442">PDF</a> <div style="float:right; text-align:right"><i>2022.04 - 2022.09</i></div>
+<p> 
+Advisor: Prof. Chenguang Yang</p>
+<ul>
+<li>
+  <p>Propose a
+whole-body learning from demonstration framework through <b>Gaussian Process</b>, which
+endows the mobile manipulator’s skill learning process with
+features of large-scale convergence, coordination working and
+disturbance rejection, after just <b>a few human demonstrations</b>.</p>
+</li>
+<li>
+  <p>An
+efficient kinesthetic teaching method is devised based on the
+<b>weighted least-norm (WLN)</b> inverse kinematics solution and an
+admittance controller, which facilitates human users to guide
+the mobile manipulator to perform tasks.</p>
+</li>
+<li>
+  <p> The framework allows for human-in-the-loop correction when the whole-body is conducting a task.</p>
+</li>
+<li>
+  <p> We also implement a model-based and efficient <b>door openning</b> for mobile manipulator, even under <b>random disturbance</b>.</p>
+</li>
+</ul>
 
 ## Project Experiences
 
