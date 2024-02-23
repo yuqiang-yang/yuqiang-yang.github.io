@@ -16,24 +16,33 @@ Specifically, I have explored and realized the posibility of allowing the mobile
 
 ## Education and Trainning
 
-<div style="float:left; text-align:left "><i><b>South China University of Technology</b></i></div> <div style="float:right; text-align:right"><i>Sep. 2022 - Present</i></div><br style="margin: 5px 0;">
-<div style="float:left; text-align:left; margin-bottom: 10px;line-height: 1">Master, Robotics
+<div style="float:left; text-align:left "><i><b>South China University of Technology</b></i></div> <div style="float:right; text-align:right"><i>Sep. 2022 - Present</i></div><br/>
+<div style="float:left; text-align:left; line-height: 1.5">Master, Robotics
 <br>Supervisor: Prof. <a href="https://scholar.google.com/citations?user=e8io0fYAAAAJ&hl=zh-CN&oi=ao">Chenguang Yang</a>
 <br> GPA: 3.82/4.0 (ranked first)
 </div>
+
+<br/> <br/><br/>
+<div style="float:left; text-align:left"><i><b>South China University of Technology</b></i></div> <div style="float:right; text-align:right"><i>Sep. 2018 - Jun. 2022</i></div> <br/>
+<div style="float:left; text-align:left; line-height: 1.5">Bachelor of Engineering, Automation
+<br>School of Automation Science and Engineering
+<br>GPA: 3.94/4.0 (ranked first)
+</div>
+<br/><br/>
+<br/>
 <br/>
 
-<div style="float:left; text-align:left"><i><b>South China University of Technology</b></i></div> <div style="float:right; text-align:right"><i>Sep. 2018 - Jun. 2022</i></div> <br/>
-<div style="float:left; text-align:left">Bachelor of Engineering, Automation</div><br/>
-<div style="float:left; text-align:left">School of Automation Science and Engineering</div><br/>
-<div style="float:left; text-align:left">GPA: 3.94/4.0 (ranked first)</div><br/>
 
 <div style="float:left; text-align:left"><i><b> <a href="http://zju-fast.com/fei-gao">FastLab</a> of Zhejiang University</b></i></div> <div style="float:right; text-align:right"><i>Oct. 2023 - Nov. 2023</i></div> <br/>
-<div style="float:left; text-align:left">Visiting student</div><br/>
-<div style="float:left; text-align:left">Wholebody planning and precise control for multicopter</div><br/>
-<div style="float:left; text-align:left">Supervisor: Prof. <a href="http://zju-fast.com/fei-gao
-">Fei Gao</a></div><br/>
+<div style="float:left; text-align:left; line-height: 1.5">Visiting student
+<br>Wholebody planning and precise control for multicopter
+<br>Supervisor: Prof. <a href="http://zju-fast.com/fei-gao
+">Fei Gao</a>
+</div>
 
+<br/>
+<br/>
+<br/>
 
 ## Research Experiences
 
