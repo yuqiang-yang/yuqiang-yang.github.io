@@ -21,16 +21,16 @@ Specifically, I have explored and realized the posibility of allowing the mobile
 <div style="float:left; text-align:left">Supervisor: Prof. <a href="https://scholar.google.com/citations?user=e8io0fYAAAAJ&hl=zh-CN&oi=ao">Chenguang Yang</a></div><br style="margin: 10px 0;">
 <div style="float:left; text-align:left">GPA: 3.82/4.0 (ranked first)</div><br style="margin: 10px 0;">
 
-<div style="float:left; text-align:left"><i><b>South China University of Technology</b></i></div> <div style="float:right; text-align:right"><i>Sep. 2018 - Jun. 2022</i></div> <br/>
-<div style="float:left; text-align:left">Bachelor of Engineering, Automation</div><br/>
-<div style="float:left; text-align:left">School of Automation Science and Engineering</div><br/>
-<div style="float:left; text-align:left">GPA: 3.94/4.0 (ranked first)</div><br/>
+<div style="float:left; text-align:left"><i><b>South China University of Technology</b></i></div> <div style="float:right; text-align:right"><i>Sep. 2018 - Jun. 2022</i></div> </br>
+<div style="float:left; text-align:left">Bachelor of Engineering, Automation</div></br>
+<div style="float:left; text-align:left">School of Automation Science and Engineering</div></br>
+<div style="float:left; text-align:left">GPA: 3.94/4.0 (ranked first)</div></br>
 
-<div style="float:left; text-align:left"><i><b> <a href="http://zju-fast.com/fei-gao">FastLab</a> of Zhejiang University</b></i></div> <div style="float:right; text-align:right"><i>Oct. 2023 - Nov. 2023</i></div> <br/>
-<div style="float:left; text-align:left">Visiting student</div><br/>
-<div style="float:left; text-align:left">Wholebody planning and precise control for multicopter</div><br/>
+<div style="float:left; text-align:left"><i><b> <a href="http://zju-fast.com/fei-gao">FastLab</a> of Zhejiang University</b></i></div> <div style="float:right; text-align:right"><i>Oct. 2023 - Nov. 2023</i></div> </br>
+<div style="float:left; text-align:left">Visiting student</div></br>
+<div style="float:left; text-align:left">Wholebody planning and precise control for multicopter</div></br>
 <div style="float:left; text-align:left">Supervisor: Prof. <a href="http://zju-fast.com/fei-gao
-">Fei Gao</a></div><br/>
+">Fei Gao</a></div></br>
 
 
 ## Research Experiences
@@ -184,7 +184,7 @@ Advisor: Dr. Chen Chen</p>
 ## Internship
 **Huawei Technologies Co.Ltd**
 <div style="float:left; text-align:left"><i>Intern, Application Innovation Laboratorys</i></div> 
-<div style="float:right; text-align:right"><i>June. 2022 - now</i></div><br/>
+<div style="float:right; text-align:right"><i>June. 2022 - now</i></div></br>
 <div style="float:left; text-align:left">Planning and Control for various robots</div>
 <p><br />Supervisor: Dr. Chen Chen, Dr. Zehui Meng</p>
 
@@ -200,6 +200,6 @@ Advisor: Dr. Chen Chen</p>
 <p>Multicopter, <a href="https://en.directdrive.com/">Diablo</a>, Franka, UR, Mobile Manipulator, Robotiq 2F85, Vicon, Touch X, ATI sensors, STM32</p>## Internship
 **Huawei Technologies Co.Ltd**
 <div style="float:left; text-align:left"><i>Intern, Application Innovation Laboratorys</i></div> 
-<div style="float:right; text-align:right"><i>June. 2022 - now</i></div><br/>
+<div style="float:right; text-align:right"><i>June. 2022 - now</i></div></br>
 <div style="float:left; text-align:left">Planning and Control for various robots</div>
 <p><br />Supervisor: Dr. Chen Chen, Dr. Zehui Meng</p>
