@@ -15,6 +15,7 @@ I am Yuqiang Yang, a master student at [South China University of Technology](ht
 Specifically, I have explored and realized the posibility of allowing the mobile manipulators to efficiently pick and place in a **wholebody** manner while avoidance collision smoothly **in cluttered dynamic environment** full of chairs, tables and shelves. Besides, I am working towards the low-cost and accurate state estimation (Visual Inertial Odometry) , mapping (Occupancy Grid Map and Euclidean Signed Distance Field), planning and control (SE3) framework for **quadrotor** in complex environments. For **autonomous car** with non-holonomic constraints, I investigated the **real-time** perception, mapping and collision-free motion planning to follow and serve the target person well. I have sufficient engineering experience on deploying algorithms in various robotic scenarios such as environmental reconstrunction, household service and car racing, etc. 
 
 ## Education and Trainning
+
 **South China University of Technology**
 <div style="float:left; text-align:left"><i>Master, Robotics</i></div> <div style="float:right; text-align:right"><i>Sep. 2022 - Present</i></div><br />
 <div style="float:left; text-align:left">School of Automation Science and Engineering</div>
@@ -39,6 +40,7 @@ Specifically, I have explored and realized the posibility of allowing the mobile
 
 
 ## Research Experiences
+
 <div style="float:left; text-align:left"> <b>RAMPAGE: Towards Whole-body, Real-Time and Agile Motion Planning in Dynamic Cluttered Environments for Mobile Manipulators</b>  <a href="https://yuqiang-yang.github.io/publications#rampage">Video</a>,  <a href="https://github.com/yuqiang-yang/TIE-Supplementary-video">PDF</a> <div style="float:right; text-align:right"><i>2022.10 - 2023.12</i></div>  
 <p>Accepted to IEEE Transaction on Industrial Electronics</p>
 <p>Advisor: Dr. Chen Chen, Dr. <a href="https://scholar.google.com.hk/citations?user=yO5K6xwAAAAJ&hl=th">Zehui Meng</a></p>
@@ -61,27 +63,33 @@ dynamic obstacles with a maximum speed of 2m/s.
 </li>
 </ul>
 
-
-
-<h2> Project Experiences</h2>
-
-**Low-cost and effient location, mapping, planning and control for multicopter in embedded system** <a href="https://yuqiang-yang.github.io/talks#planning">Video1</a>, <a href="https://yuqiang-yang.github.io/talks#hover">Video2</a>, <a href="https://yuqiang-yang.github.io/talks#rcesdf">Video3</a>
-<div style="float:left; text-align:left">Application Innovate Laboratory, Huawei; FastLab, Zhejiang University</div> <div style="float:right; text-align:right"><i>2023.2 - present</i></div>
-<p> <br />
-Advisor: Dr. Chen Chen; Dr. <a href="https://scholar.google.com.hk/citations?user=yO5K6xwAAAAJ&hl=th">Zehui Meng</a>; Prof. <a href="https://scholar.google.com.hk/citations?user=4RObDv0AAAAJ&hl=zh-CN">Fei Gao</a></p>
+<div style="float:left; text-align:left"><b>Learn to Coordinate: a Whole-Body Learning from Demonstration Framework for Differential Drive Mobile Manipulators</b> <a href="https://yuqiang-yang.github.io/publications#open_door">Video1</a>, <a href="https://yuqiang-yang.github.io/publications#learning">Video2</a>, <a href="https://ieeexplore.ieee.org/abstract/document/10394442">PDF</a> <div style="float:right; text-align:right"><i>2022.04 - 2022.09</i></div>
+<p> 
+Advisor: Prof. Chenguang Yang</p>
 <ul>
 <li>
- <p> The VIO is improved from <a href="https://github.com/HKUST-Aerial-Robotics/VINS-Fusion">Vins-Fusion</a> to achieve best performance in a low-performance chip. The front-end feature extraction part is changed to a <b>learning-based feature </b><a href="https://github.com/facebookresearch/silk">Silk</a>, boosting the computation efficiency though an <b>nerual processing unit (NPU)</b>. The back-end combines the filter-based and optimization-based methods to strike a good balance between the computation efficency and the location precision. </p>
+  <p>Propose a
+whole-body learning from demonstration framework through <b>Gaussian Process</b>, which
+endows the mobile manipulator’s skill learning process with
+features of large-scale convergence, coordination working and
+disturbance rejection, after just <b>a few human demonstrations</b>.</p>
 </li>
 <li>
-  <p> We design and implement a low-cost efficient occupancy grid map (OGM) updating algorithm with the features of <b>incremental inflation</b> and <b>spatial-temporal sliding windows</b>. This enables a fast occupancy infomation update in large environment.</p>
+  <p>An
+efficient kinesthetic teaching method is devised based on the
+<b>weighted least-norm (WLN)</b> inverse kinematics solution and an
+admittance controller, which facilitates human users to guide
+the mobile manipulator to perform tasks.</p>
 </li>
-
 <li>
-  <p> A <b>robot-centric ESDF</b> (RC-ESDF) is utilized to represent the collision cost in the back-end optimization of our model prediected contour control (MPCC). This <b>lazy evaluation strategy</b> saves many times and calculations, allowing to plan and excute agressive trajectory in unknown environment.</p>
+  <p> The framework allows for human-in-the-loop correction when the whole-body is conducting a task.</p>
 </li>
-
+<li>
+  <p> We also implement a model-based and efficient <b>door openning</b> for mobile manipulator, even under <b>random disturbance</b>.</p>
+</li>
 </ul>
+
+<h2> Project Experiences</h2>
 
 **SE3 planning and control for multicopter to cross narrow gap** <a href="https://yuqiang-yang.github.io/talks#se3">Video</a>
 <div style="float:left; text-align:left"> FastLab, Zhejiang University</div> <div style="float:right; text-align:right"><i>2023.2 - present</i></div>
