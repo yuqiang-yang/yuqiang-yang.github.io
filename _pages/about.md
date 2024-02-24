@@ -70,19 +70,22 @@ Conducted extensive experiments to demonstrate the effectiveness of our framewor
 trajectories with a high success rate (≈80%) and a excellent tracking accuracy among highly dynamic obstacles.
 </li>
 </ul>
-  <div class="gif-container" style="display: flex; flex-wrap: wrap;">
+<center>
+  <div class="gif-container" style="display: flex;justify-content: center; align-items: center; flex-wrap: wrap;">
     <div class="gif" style="width: 40%; height: auto; padding: 5px;">
-      <img src="../files/esdf.gif" alt="GIF 1">
+      <img src="../files/esdf.gif" alt="GIF 1" width="960" height="200" style="width: 100%; height: 100%; object-fit: contain;">
     </div>
     <div class="gif" style="width: 40%; height: auto; padding: 5px;">
-      <img src="../files/planning.gif" alt="GIF 2">
+      <img src="../files/planning.gif" alt="GIF 2" style="width: 100%; height: 100%; object-fit: contain;">
     </div>
   </div>
-  <div class="gif-container" style="display: flex; flex-wrap: wrap;">
-    <div class="long-gif" style="width: 100%; height: auto; padding: 5px;">
-      <img src="../files/realwolrd.gif" alt="Long GIF">
+  <div class="gif-container" style="display: flex;justify-content: center; align-items: center; flex-wrap: wrap;">
+    <div class="long-gif" style="width: 80%; height: auto; padding: 5px;">
+      <img src="../files/realwolrd.gif" alt="Long GIF" style="width: 100%; height: 100%; object-fit: contain;">
     </div>
   </div>
+  </center>
+
 <div style="float:left; text-align:left"><b>Learn to Coordinate: a Whole-Body Learning from Demonstration Framework for Differential Drive Mobile Manipulators</b> 
 [<a href="https://yuqiang-yang.github.io/publications#open_door">Video1</a>, <a href="https://yuqiang-yang.github.io/publications#learning">Video2</a>, <a href="https://ieeexplore.ieee.org/abstract/document/10394442">PDF</a>]</div> <div style="float:right; text-align:right"><i>2022.04 - 2022.09</i></div>
 <p> 
