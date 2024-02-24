@@ -241,17 +241,29 @@ Advisor: Dr. Chen Chen</p>
 
 
 ## Internship
-**Huawei Technologies Co.Ltd**
-<div style="float:left; text-align:left"><i> Intern, Application Innovation Laboratorys</i></div> 
-<div style="float:right; text-align:right"><i>June. 2022 - now</i></div><br/>
-<div style="float:left; text-align:left">Planning and Control for various robots</div>
-<p><br />Supervisor: Dr. Chen Chen, Dr. Zehui Meng</p>
 
-**China-Singapore International Joint Research Institute**
-<div style="float:left; text-align:left"><i>Intern, Robot Perception and Computer Vision Group</i></div> 
-<div style="float:right; text-align:right"><i>Jan. 2021 - Mar. 2021</i></div><br/>
-<div style="float:left; text-align:left">Multi-sensor calibration and 3D detection</div>
-<p><br />Supervisor: Dr. Mingxing Wen</p>
+<div style="float:left; text-align:left; line-height: 1.5">
+<i><b> Huawei Technologies Co.Ltd</b></i>
+<br>Intern, Application Innovation Laboratorys
+<br>Planning and Control for various robots
+<br>Supervisor: Dr. Chen Chen, Dr. Zehui Meng
+</div>
+ <div style="float:right; text-align:right"><i>June. 2022 - now</i></div> <br/>
+<br/>
+<br/>
+<br/>
+
+<div style="float:left; text-align:left; line-height: 1.5">
+<i><b>China-Singapore International Joint Research Institute</b></i>
+<br>Intern, Robot Perception and Computer Vision Group
+<br>Multi-sensor calibration and 3D detection
+<br>Supervisor: Dr. Mingxing Wen
+</div>
+ <div style="float:right; text-align:right"><i>Jan. 2021 - Mar. 2021</i></div> <br/>
+<br/>
+<br/>
+
+
 
 ## Skills
 
