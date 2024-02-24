@@ -242,7 +242,7 @@ Advisor: Dr. Chen Chen</p>
 
 ## Internship
 
-<div style="float:left; text-align:left; line-height: 1.5">
+<div style="float:left; text-align:left; line-height: 1.8">
 <i><b> Huawei Technologies Co.Ltd</b></i>
 <br>Intern, Application Innovation Laboratorys
 <br>Planning and Control for various robots
@@ -251,8 +251,9 @@ Advisor: Dr. Chen Chen</p>
  <div style="float:right; text-align:right"><i>June. 2022 - now</i></div> <br/>
 <br/>
 <br/>
+<br/>
 
-<div style="float:left; text-align:left; line-height: 1.5">
+<div style="float:left; text-align:left; line-height: 1.8">
 <i><b>China-Singapore International Joint Research Institute</b></i>
 <br>Intern, Robot Perception and Computer Vision Group
 <br>Multi-sensor calibration and 3D detection
