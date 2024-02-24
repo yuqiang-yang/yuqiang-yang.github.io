@@ -25,7 +25,7 @@ Specifically, I have explored and realized the possibility of allowing the mobil
 </div>
 <div style="float:right; text-align:right"><i>Sep. 2022 - Present</i></div><br/>
 <br/> <br/>
-
+<br/>
 
 <div style="float:left; text-align:left; line-height: 1.8">
 <i><b>South China University of Technology</b></i>
@@ -36,7 +36,7 @@ Specifically, I have explored and realized the possibility of allowing the mobil
 
 <br/>
 <br/>
-
+<br/>
 
 
 <div style="float:left; text-align:left; line-height: 1.8">
