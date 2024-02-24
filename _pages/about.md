@@ -12,9 +12,9 @@ redirect_from:
 I am Yuqiang Yang, a master student at [South China University of Technology](https://www.scut.edu.cn/new/), supervised by [Prof. Chenguang Yang](https://scholar.google.com/citations?user=e8io0fYAAAAJ&hl=zh-CN&oi=ao). My research interests are to explore and exploit the potentiality of various robots, such as **mobile manipulator, autonomous car and multicopter**, to perform tasks autonomously and efficiently in unstructured environment. 
 <!-- The goal of my research is to endow robots with **agile mobility and manoeuvrability** in a 3d cluttered **dynamic** environment. -->
    
-Specifically, I have explored and realized the posibility of allowing the mobile manipulators to efficiently pick and place in a **wholebody** manner while avoidance collision smoothly **in cluttered dynamic environment** full of chairs, tables and shelves. Besides, I am working towards the low-cost and accurate state estimation (Visual Inertial Odometry) , mapping (Occupancy Grid Map and Euclidean Signed Distance Field), planning and control (SE3) framework for **quadrotor** in complex environments. For **autonomous car** with non-holonomic constraints, I investigated the **real-time** perception, mapping and collision-free motion planning to follow and serve the target person well. I have sufficient engineering experience on deploying algorithms in various robotic scenarios such as environmental reconstrunction, household service and car racing, etc. 
+Specifically, I have explored and realized the possibility of allowing the mobile manipulators to efficiently pick and place in a **wholebody** manner while avoidance collision smoothly **in cluttered dynamic environment** full of chairs, tables and shelves. Besides, I am working towards the low-cost and accurate state estimation (Visual Inertial Odometry) , mapping (Occupancy Grid Map and Euclidean Signed Distance Field), planning and control (SE3) framework for **quadrotor** in complex environments. For **autonomous car** with non-holonomic constraints, I investigated the **real-time** perception, mapping and collision-free motion planning to follow and serve the target person well. I have sufficient engineering experience on deploying algorithms in various robotic scenarios such as environmental reconstruction, household service and car racing, etc. 
 
-## Education and Trainning
+## Education and Training
 
 
 <div style="float:left; text-align:left; line-height: 1.5">
@@ -104,7 +104,7 @@ disturbance rejection, after just <b>a few human demonstrations</b>.</p>
   <p> Devised an efficient kinesthetic teaching method based on the <b>weighted least-norm (WLN)</b> inverse kinematics solution and an admittance controller, which facilitates human users to guide the mobile manipulator to perform tasks.</p>
 </li>
 <li>
-  <p> Implemented a model-based and robust <b>door openning</b> algorithm for mobile manipulator in a coordinated whole-body manner, even under <b>random disturbance</b>.</p>
+  <p> Implemented a model-based and robust <b>door opening</b> algorithm for mobile manipulator in a coordinated whole-body manner, even under <b>random disturbance</b>.</p>
 </li>
 </ul>
   <div class="gif-container" style="display: flex;justify-content: center; align-items: center; flex-wrap: wrap;">
@@ -115,7 +115,7 @@ disturbance rejection, after just <b>a few human demonstrations</b>.</p>
 
 ## Project Experiences
 
-**Low-cost and effient location, mapping, planning and control for multicopter in embedded system** 
+**Low-cost and efficient location, mapping, planning and control for multicopter in embedded system** 
 [<a href="https://yuqiang-yang.github.io/talks#planning">Video1</a>, <a href="https://yuqiang-yang.github.io/talks#hover">Video2</a>, <a href="https://yuqiang-yang.github.io/talks#rcesdf">Video3</a>]
 
 <div style="float:left; text-align:left">Application Innovate Laboratory, Huawei; FastLab, Zhejiang University</div> <div style="float:right; text-align:right"><i>2023.2 - present</i></div>
@@ -123,17 +123,24 @@ disturbance rejection, after just <b>a few human demonstrations</b>.</p>
 Advisor: Dr. Chen Chen; Dr. <a href="https://scholar.google.com.hk/citations?user=yO5K6xwAAAAJ&hl=th">Zehui Meng</a>; Prof. <a href="https://scholar.google.com.hk/citations?user=4RObDv0AAAAJ&hl=zh-CN">Fei Gao</a></p>
 <ul>
 <li>
- <p> The VIO is improved from <a href="https://github.com/HKUST-Aerial-Robotics/VINS-Fusion">Vins-Fusion</a> to achieve best performance in a low-performance chip. The front-end feature extraction part is changed to a <b>learning-based feature </b><a href="https://github.com/facebookresearch/silk">Silk</a>, boosting the computation efficiency though an <b>nerual processing unit (NPU)</b>. The back-end combines the filter-based and optimization-based methods to strike a good balance between the computation efficency and the location precision. </p>
+ <p> Improved <a href="https://github.com/HKUST-Aerial-Robotics/VINS-Fusion">Vins-Fusion</a> by replacing front-end feature extraction with a <b>learning-based feature </b> and enhancing back-end optimization with a QR-based dimensionality reduction algorithm. Boosted the accuracy and robustness greatly in low-performance chip.</p>
 </li>
+<!-- <a href="https://github.com/facebookresearch/silk">Silk</a> 
+, boosting the computation efficiency though an <b>nerual processing unit (NPU)</b>.-->
 <li>
-  <p> We design and implement a low-cost efficient occupancy grid map (OGM) updating algorithm with the features of <b>incremental inflation</b> and <b>spatial-temporal sliding windows</b>. This enables a fast occupancy infomation update in large environment.</p>
+  <p> Implemented a low-cost efficient occupancy grid map (OGM) updating algorithm based on <b>incremental inflation</b> and <b>spatial-temporal sliding windows</b>, which enables a extremely fast occupancy information update in large environments.</p>
 </li>
 
 <li>
-  <p> A <b>robot-centric ESDF</b> (RC-ESDF) is utilized to represent the collision cost in the back-end optimization of our model prediected contour control (MPCC). This <b>lazy evaluation strategy</b> saves many times and calculations, allowing to plan and excute agressive trajectory in unknown environment.</p>
+  <p> Proposed the <b>robot-centric ESDF</b>, whose values are only lazily evaluated in the local frame for extraordinarily small calculations, to formulate the collision cost in the back-end optimization of model predicted contour control (MPCC).</p>
 </li>
 
 </ul>
+  <div class="gif-container" style="display: flex;justify-content: center; align-items: center; flex-wrap: wrap;">
+    <div class="long-gif" style="width: 80%; height: auto; padding: 5px;">
+      <img src="../files/fly_forest.gif" alt="Long GIF" style="width: 100%; height: 100%; object-fit: contain;">
+    </div>
+  </div>
 
 **SE3 planning and control for multicopter to cross narrow gap** 
 [<a href="https://yuqiang-yang.github.io/talks#se3">Video</a>]
@@ -143,13 +150,22 @@ Advisor: Dr. Chen Chen; Dr. <a href="https://scholar.google.com.hk/citations?use
 Advisor:  Prof. <a href="https://scholar.google.com.hk/citations?user=4RObDv0AAAAJ&hl=zh-CN">Fei Gao</a></p>
 <ul>
 <li>
- <p> We also construct a <b>safe flight corridor</b> (SFC) consisting of many convex polytopes. Then <a href="https://github.com/ZJU-FAST-Lab/GCOPTER">MINCO</a> trajectory will be optimized and executed with a finely tuned controller considering the <b>full dynamics</b> to make the multicoter cross a narrow gap. </p>
+ <p> Constructed the <b>safe flight corridor</b> (SFC) including a series of mutually-consecutive convex polytopes to represent the free space of the quadrotor.
+ </p>
 </li>
 <li>
-  <p> We design and implement a low-cost efficient occupancy grid map (OGM) updating algorithm with the features of <b>incremental inflation</b> and <b>spatial-temporal sliding windows</b>. This enables a fast occupancy infomation update in large environment.</p>
+<p> Utilized <a href="https://github.com/ZJU-FAST-Lab/GCOPTER">MINCO</a> to parameterize the trajectory in spatial-temporal space and jointly optimize a crossing-gap trajectory for better smoothness, using L-BFGS algorithm.</p>
+</li>
+<li>
+  <p> Identified the quadrotor dynamics parameter for a accurate thrust mapping w.r.t the battery voltage and control duty cycle. Then finely tuned the controller to track the large-attitude trajectory to cross the narrow gap.</p>
 </li>
 
 </ul>
+  <div class="gif-container" style="display: flex;justify-content: center; align-items: center; flex-wrap: wrap;">
+    <div class="long-gif" style="width: 80%; height: auto; padding: 5px;">
+      <img src="../files/se3.jpg" alt="Long GIF" style="width: 100%; height: 100%; object-fit: contain;">
+    </div>
+  </div>
 
 **Pedestrian following and collision avoidance with spatial-temporal optimization for differential car** [<a href="https://yuqiang-yang.github.io/teaching#follow">Video</a>]
 
