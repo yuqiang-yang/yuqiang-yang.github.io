@@ -17,7 +17,7 @@ Specifically, I have explored and realized the possibility of allowing the mobil
 ## Education and Training
 
 
-<div style="float:left; text-align:left; line-height: 1.5">
+<div style="float:left; text-align:left; line-height: 2">
 <i><b>South China University of Technology</b></i>
 <br>Master, Robotics
 <br>Supervisor: Prof. <a href="https://scholar.google.com/citations?user=e8io0fYAAAAJ&hl=zh-CN&oi=ao">Chenguang Yang</a>
@@ -27,7 +27,7 @@ Specifically, I have explored and realized the possibility of allowing the mobil
 <br/> <br/>
 
 
-<div style="float:left; text-align:left; line-height: 1.5">
+<div style="float:left; text-align:left; line-height: 2">
 <i><b>South China University of Technology</b></i>
 <br>Bachelor of Engineering, Automation
 <br>School of Automation Science and Engineering
@@ -39,7 +39,7 @@ Specifically, I have explored and realized the possibility of allowing the mobil
 
 
 
-<div style="float:left; text-align:left; line-height: 1.5">
+<div style="float:left; text-align:left; line-height: 2">
 <i><b> <a href="http://zju-fast.com/fei-gao">FastLab</a> of Zhejiang University</b></i>
 <br>Visiting student
 <br>Wholebody planning and  control for multicopter
