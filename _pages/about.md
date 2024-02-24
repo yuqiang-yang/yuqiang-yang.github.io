@@ -251,7 +251,6 @@ Advisor: Dr. Chen Chen</p>
  <div style="float:right; text-align:right"><i>June. 2022 - now</i></div> <br/>
 <br/>
 <br/>
-<br/>
 
 <div style="float:left; text-align:left; line-height: 1.5">
 <i><b>China-Singapore International Joint Research Institute</b></i>
