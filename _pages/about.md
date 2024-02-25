@@ -63,7 +63,7 @@ Specifically, I have explored and realized the possibility of allowing the mobil
   <p> Derived and implemented a whole-body trajectory optimization method which naturally <b>integrates the planning and control module</b> (IPC) in an augmented Lagrangian differential dynamic programming (AL-DDP) form.</p>
 </li>
 <li>
-  <p>Utilized a <b>real-time constructed ESDF map</b> and a novel sphere decomposition for mobile manipulator to achieve one-shot collision detection against dynamic obstacles in batch</b>.</p>
+  <p>Utilized a <b>real-time constructed ESDF map</b> and a novel sphere decomposition for mobile manipulator to achieve one-shot collision detection against dynamic obstacles in batch.</p>
 </li>
 <li>
 Conducted extensive experiments to demonstrate the effectiveness of our framework in planning and executing whole-body collision-free
@@ -145,7 +145,7 @@ Advisor: Dr. Chen Chen; Dr. <a href="https://scholar.google.com.hk/citations?use
 **SE3 planning and control for multicopter to cross narrow gap** 
 [<a href="https://yuqiang-yang.github.io/talks#se3">Video</a>]
 
-<div style="float:left; text-align:left"> FastLab, Zhejiang University</div> <div style="float:right; text-align:right"><i>2023.2 - present</i></div>
+<div style="float:left; text-align:left"> FastLab, Zhejiang University</div> <div style="float:right; text-align:right"><i>2023.10 - 2023.12</i></div>
 <p> <br />
 Advisor:  Prof. <a href="https://scholar.google.com.hk/citations?user=4RObDv0AAAAJ&hl=zh-CN">Fei Gao</a></p>
 <ul>
