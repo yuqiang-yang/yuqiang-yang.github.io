@@ -120,7 +120,7 @@ disturbance rejection, after just <b>a few human demonstrations</b>.</p>
 
 <div style="float:left; text-align:left">Application Innovate Laboratory, Huawei; FastLab, Zhejiang University</div> <div style="float:right; text-align:right"><i>2023.2 - present</i></div>
 <p> <br />
-Advisor: Dr. Chen Chen; Dr. <a href="https://scholar.google.com.hk/citations?user=yO5K6xwAAAAJ&hl=th">Zehui Meng</a>; Prof. <a href="https://scholar.google.com.hk/citations?user=4RObDv0AAAAJ&hl=zh-CN">Fei Gao</a></p>
+Advisor: Dr. Chen Chen; Dr. <a href="https://scholar.google.com.hk/citations?user=yO5K6xwAAAAJ&hl=th">Zehui Meng</a>; Prof. <a href="https://scholar.google.com.hk/citations?user=4RObDv0AAAAJ&hl=zh-CN">Fei Gao</a> </p>
 <ul>
 <li>
  <p> Improved <a href="https://github.com/HKUST-Aerial-Robotics/VINS-Fusion">Vins-Fusion</a> by replacing front-end feature extraction with a <b>learning-based feature </b> and enhancing back-end optimization with a QR-based dimensionality reduction algorithm. Boosted the accuracy and robustness greatly in low-performance chip.</p>
@@ -132,7 +132,7 @@ Advisor: Dr. Chen Chen; Dr. <a href="https://scholar.google.com.hk/citations?use
 </li>
 
 <li>
-  <p> Proposed the <b>robot-centric ESDF</b>, whose values are only lazily evaluated in the local frame for extraordinarily small calculations, to formulate the collision cost in the back-end optimization of model predicted contour control (MPCC).</p>
+  <p> Utilized the <b>robot-centric ESDF</b>, whose values are only lazily evaluated in the local frame for extraordinarily small calculations, to formulate the collision cost in the back-end optimization of model predicted contour control (MPCC).</p>
 </li>
 
 </ul>
