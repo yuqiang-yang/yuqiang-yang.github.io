@@ -1,11 +1,11 @@
-<!-- ---
+---
 layout: archive
-title: "CV"
+title: "RL"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
---- -->
+---
 
 I am studying how to utilize robotics learning methods, such as reinforcement learning and imitation learning, to achieve high-level intelligence of different robots.
 
