@@ -9,10 +9,10 @@ redirect_from:
   - /about.html
 ---
 
-I am Yuqiang Yang, a master student at [South China University of Technology](https://www.scut.edu.cn/new/), supervised by [Prof. Chenguang Yang](https://scholar.google.com/citations?user=e8io0fYAAAAJ&hl=zh-CN&oi=ao). My research interests are to explore and exploit the potentiality of various robots, such as **mobile manipulator, autonomous car and multicopter**, to perform tasks autonomously and efficiently in unstructured environment. 
+I am Yuqiang Yang, a master student at [South China University of Technology](https://www.scut.edu.cn/new/), supervised by [Prof. Chenguang Yang](https://scholar.google.com/citations?user=e8io0fYAAAAJ&hl=zh-CN&oi=ao). My research interests are to explore and exploit the potentiality of various robots, such as **mobile manipulator, autonomous car, humanoid and multicopter**, to perform tasks autonomously and efficiently in unstructured environment. 
 <!-- The goal of my research is to endow robots with **agile mobility and manoeuvrability** in a 3d cluttered **dynamic** environment. -->
    
-Specifically, I have explored and realized the possibility of allowing the mobile manipulators to efficiently pick and place in a **wholebody** manner while avoidance collision smoothly **in cluttered dynamic environment** full of chairs, tables and shelves. Besides, I am working towards the low-cost and accurate state estimation (Visual Inertial Odometry) , mapping (Occupancy Grid Map and Euclidean Signed Distance Field), planning and control (SE3) framework for **quadrotor** in complex environments. For **autonomous car** with non-holonomic constraints, I investigated the **real-time** perception, mapping and collision-free motion planning to follow and serve the target person well. I have sufficient engineering experience on deploying algorithms in various robotic scenarios such as environmental reconstruction, household service and car racing, etc. 
+Specifically, I have explored and realized the possibility of allowing the mobile manipulators to efficiently pick and place in a **wholebody** manner while avoidance collision smoothly **in cluttered dynamic environment** full of chairs, tables and shelves. Besides, I am working towards the low-cost and accurate state estimation (Visual Inertial Odometry) , mapping (Occupancy Grid Map and Euclidean Signed Distance Field), planning and control (SE3) framework for **quadrotor** in complex environments. For **autonomous car** with non-holonomic constraints, I investigated the **real-time** perception, mapping and collision-free motion planning to follow and serve the target person well. In the field of robotics learning, I study how to utilize the Nvidia Isaac Lab environment for Unitree H1 humanoid locomotion task. I have sufficient engineering experience on deploying algorithms in various robotic scenarios such as environmental reconstruction, household service and car racing, etc. 
 
 ## Education and Training
 
@@ -115,10 +115,43 @@ disturbance rejection, after just <b>a few human demonstrations</b>.</p>
 
 ## Project Experiences
 
+**Locomotion in complex terrain through reinforcement learning in Isaac lab** 
+[<a href="https://yuqiang-yang.github.io/talks#se3">Video</a>]
+
+<div style="float:left; text-align:left"> Learning in progree</div> <div style="float:right; text-align:right"><i>2024.6 - present</i></div>
+<p> <br />
+<ul>
+<li>
+ <p> Designed and fine-tuned the reward function for humanoid locomotion. Then implemented proximal policy optimization algorithm (PPO) to train the humanoid locomotion from curriculum.
+ </p>
+</li>
+<li>
+<p> Sim-to-Sim transfer the learned policy into different photo-realistic environments of Nvidia Isaac Sim. Demonstrate robust locomotion ability of the RL policy for Unitree H1.</p>
+</li>
+</ul>
+<center>
+  <div class="gif-container" style="display: flex;justify-content: center; align-items: center; flex-wrap: wrap;">
+    <div class="gif" style="width: 40%; height: auto; padding: 5px;">
+      <img src="../files/h1-hosp.gif" alt="GIF 1" width="960" height="200" style="width: 100%; height: 100%; object-fit: contain;">
+    </div>
+    <div class="gif" style="width: 40%; height: auto; padding: 5px;">
+      <img src="../files/h1-office.gif" alt="GIF 2" style="width: 100%; height: 100%; object-fit: contain;">
+    </div>
+  </div>
+  <div class="gif-container" style="display: flex;justify-content: center; align-items: center; flex-wrap: wrap;">
+    <div class="gif" style="width: 40%; height: auto; padding: 5px;">
+      <img src="../files/h1-out.gif" alt="GIF 1" width="960" height="200" style="width: 100%; height: 100%; object-fit: contain;">
+    </div>
+    <div class="gif" style="width: 40%; height: auto; padding: 5px;">
+      <img src="../files/h1-stair.gif" alt="GIF 2" style="width: 100%; height: 100%; object-fit: contain;">
+    </div>
+  </div>
+  </center>
+  
 **Low-cost and efficient location, mapping, planning and control for multicopter in embedded system** 
 [<a href="https://yuqiang-yang.github.io/talks#planning">Video1</a>, <a href="https://yuqiang-yang.github.io/talks#hover">Video2</a>, <a href="https://yuqiang-yang.github.io/talks#rcesdf">Video3</a>]
 
-<div style="float:left; text-align:left">Application Innovate Laboratory, Huawei; FastLab, Zhejiang University</div> <div style="float:right; text-align:right"><i>2023.2 - present</i></div>
+<div style="float:left; text-align:left">Application Innovate Laboratory, Huawei; FastLab, Zhejiang University</div> <div style="float:right; text-align:right"><i>2023.2 - 2024.3</i></div>
 <p> <br />
 Advisor: Dr. Chen Chen; Dr. <a href="https://scholar.google.com.hk/citations?user=yO5K6xwAAAAJ&hl=th">Zehui Meng</a>; Prof. <a href="https://scholar.google.com.hk/citations?user=4RObDv0AAAAJ&hl=zh-CN">Fei Gao</a> </p>
 <ul>
