@@ -13,14 +13,14 @@ main:
   - title: "Car"
     url: /teaching/    
     
-  - title: "Humanoid"
-    url: /portfolio/
+  # - title: "Humanoid"
+  #   url: /portfolio/
         
   # - title: "Blog Posts"
   #   url: /year-archive/
     
-  # - title: "CV"
-  #   url: /cv/
+  - title: "Humanoid"
+    url: /cv/
     
   # - title: "Guide"
   #   url: /markdown/

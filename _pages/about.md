@@ -118,11 +118,44 @@ disturbance rejection, after just <b>a few human demonstrations</b>.</p>
 **Locomotion in complex terrain through reinforcement learning in Isaac lab** 
 [<a href="https://yuqiang-yang.github.io/talks#se3">Video</a>]
 
-<div style="float:left; text-align:left"> Learning in progree</div> <div style="float:right; text-align:right"><i>2024.6 - present</i></div>
+<div style="float:left; text-align:left"> Learning in progress</div> <div style="float:right; text-align:right"><i>2024.6 - present</i></div>
  <br />
 <ul>
 <li>
  <p> Designed and fine-tuned the reward function for humanoid locomotion. Then implemented proximal policy optimization algorithm (PPO) to train the humanoid locomotion from curriculum.
+ </p>
+</li>
+<li>
+<p> Sim-to-Sim transfer the learned policy into different photo-realistic environments of Nvidia Isaac Sim. Demonstrate robust locomotion ability of the RL policy for Unitree H1.</p>
+</li>
+</ul>
+<center>
+  <div class="gif-container" style="display: flex;justify-content: center; align-items: center; flex-wrap: wrap;">
+    <div class="gif" style="width: 40%; height: auto; padding: 5px;">
+      <img src="../files/h1-hosp.gif" alt="GIF 1" width="960" height="200" style="width: 100%; height: 100%; object-fit: contain;">
+    </div>
+    <div class="gif" style="width: 40%; height: auto; padding: 5px;">
+      <img src="../files/h1-office.gif" alt="GIF 2" style="width: 100%; height: 100%; object-fit: contain;">
+    </div>
+  </div>
+  <div class="gif-container" style="display: flex;justify-content: center; align-items: center; flex-wrap: wrap;">
+    <div class="gif" style="width: 40%; height: auto; padding: 5px;">
+      <img src="../files/h1-out.gif" alt="GIF 1" width="960" height="200" style="width: 100%; height: 100%; object-fit: contain;">
+    </div>
+    <div class="gif" style="width: 40%; height: auto; padding: 5px;">
+      <img src="../files/h1-stair.gif" alt="GIF 2" style="width: 100%; height: 100%; object-fit: contain;">
+    </div>
+  </div>
+  </center>
+
+**Risk-aware contingency motion planning under uncertainties for Automated Valet Parking(AVP)** 
+[<a href="https://yuqiang-yang.github.io/talks#se3">Video</a>]
+
+<div style="float:left; text-align:left"> DJI Automotive</div> <div style="float:right; text-align:right"><i>2024.4 - present</i></div>
+ <br />
+<ul>
+<li>
+ <p> Realized global topological path searching towards the point of interest(POI). Identified semantic elements on the route (ramp, corner, etc.) and implemented global speed scheduling based on the user preferences and kinematic constraints. 
  </p>
 </li>
 <li>

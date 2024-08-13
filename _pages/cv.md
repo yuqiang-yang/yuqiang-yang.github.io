@@ -7,53 +7,17 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+I am studying how to utilize robotics learning methods, such as reinforcement learning and imitation learning, to achieve high-level intelligence of different robots.
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+<center><h2 id="rampage">Locomotion in complex terrain through reinforcement learning in Isaac lab</h2></center>
+<p> &emsp;  This project is to allow the humanoid to learn a robust locomotion policy in complex environment. I deploy the learned policy into different simulation environment of Nvidia Isaac Sim and demonstrate its effectiveness.</p>
+<!-- <video id="video" controls="" preload="none">
+      <source id="mp4" src="../files/coordination.mp4" type="video/mp4">
+</videos> -->
+<video width="960" height="540" controls style="width= 100%; height=100%; object-fit: fill">
+  <source src="../files/rl-scene.mp4" type="video/mp4">
+</video>
+<video width="960" height="540" controls style="width= 100%; height=100%; object-fit: fill">
+  <source src="../files/rl-unitree.mp4" type="video/mp4">
+</video>
+<br>
