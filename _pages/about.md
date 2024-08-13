@@ -160,9 +160,10 @@ disturbance rejection, after just <b>a few human demonstrations</b>.</p>
 <li>
 <p> Planned the lateral path for ego to bypass different agents (static obstalces, upcoming cars, etc.). Generate multiple safe corridors based on vonorio and get the reference polyline. Then we construct second-order continuous SplineGrid from bypass boundary to iteratively optimize a smooth path. </p>
 </li>
+<li>
 <p> Modelled the scenario risk considering the uncertainties from perception, prediction and game. Then use iLQR to optimize an interactive longitudinal speed in S-T state space.</p>
 </li>
-</li>
+<li>
 <p> Studied the contingency speed planning under multimodality of prediction. Use tree branch based iLQR to optimize the coupled trajectories in different scenarios. </p>
 </li>
 </ul>
