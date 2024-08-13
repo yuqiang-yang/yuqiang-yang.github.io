@@ -119,7 +119,7 @@ disturbance rejection, after just <b>a few human demonstrations</b>.</p>
 [<a href="https://yuqiang-yang.github.io/talks#se3">Video</a>]
 
 <div style="float:left; text-align:left"> Learning in progree</div> <div style="float:right; text-align:right"><i>2024.6 - present</i></div>
-<p> <br />
+ <br />
 <ul>
 <li>
  <p> Designed and fine-tuned the reward function for humanoid locomotion. Then implemented proximal policy optimization algorithm (PPO) to train the humanoid locomotion from curriculum.
@@ -129,7 +129,7 @@ disturbance rejection, after just <b>a few human demonstrations</b>.</p>
 <p> Sim-to-Sim transfer the learned policy into different photo-realistic environments of Nvidia Isaac Sim. Demonstrate robust locomotion ability of the RL policy for Unitree H1.</p>
 </li>
 </ul>
-<!-- <center>
+<center>
   <div class="gif-container" style="display: flex;justify-content: center; align-items: center; flex-wrap: wrap;">
     <div class="gif" style="width: 40%; height: auto; padding: 5px;">
       <img src="../files/h1-hosp.gif" alt="GIF 1" width="960" height="200" style="width: 100%; height: 100%; object-fit: contain;">
@@ -146,7 +146,7 @@ disturbance rejection, after just <b>a few human demonstrations</b>.</p>
       <img src="../files/h1-stair.gif" alt="GIF 2" style="width: 100%; height: 100%; object-fit: contain;">
     </div>
   </div>
-  </center> -->
+  </center>
 
 **Low-cost and efficient location, mapping, planning and control for multicopter in embedded system** 
 [<a href="https://yuqiang-yang.github.io/talks#planning">Video1</a>, <a href="https://yuqiang-yang.github.io/talks#hover">Video2</a>, <a href="https://yuqiang-yang.github.io/talks#rcesdf">Video3</a>]
