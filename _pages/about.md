@@ -55,21 +55,6 @@ Our team is dedicated to building **Embodied AGI systems** and empowering both a
 <div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 30px;">
   <!-- 左侧：30%宽度（固定比例，不折行），论文图片 -->
   <div style="width: 30%; min-width: 250px;">
-    <img src="../files/internvla-a1-method.png" alt="internvla-a1" style="width: 100%; height: auto; object-fit: contain;">
-  </div>
-  <!-- 右侧：70%宽度（固定比例，不折行），标题+链接+备注 -->
-  <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
-    <h3 style="margin-top: 0; font-size: 18px; line-height: 1.5;">InternVLA-A1: Unifying Understanding, Generation and Action for Robotic Manipulation</h3>
-    <p style="margin: 8px 0;">2026 Technical report</p>
-    <p style="margin: 8px 0;">[<a href="https://internrobotics.github.io/internvla-a1.github.io/">Project Page</a>]&nbsp;[<a href="https://arxiv.org/abs/2601.02456">Paper</a>]&nbsp;[<a href="https://github.com/InternRobotics/InternVLA-A1">Code</a>]&nbsp;[<a href="https://huggingface.co/datasets/InternRobotics/InternData-A1">Data</a>]&nbsp;[<a href="https://huggingface.co/InternRobotics/InternVLA-A1-3B">Model</a>]</p>
-    <p>We present InternVLA-A1, a unified VLA model that coordinates scene understanding, visual foresight generation, and action execution with a Mixture-of-Transformers architecture. Trained on heterogeneous robot, simulation, and human-video data, InternVLA-A1 brings world-model-style dynamics prediction into robotic manipulation and shows strong performance on both static and highly dynamic tasks.
-</p>
-  </div>
-</div>
-
-<div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 30px;">
-  <!-- 左侧：30%宽度（固定比例，不折行），论文图片 -->
-  <div style="width: 30%; min-width: 250px;">
     <img src="../files/cortex-overview.gif" alt="cortex" style="width: 100%; height: auto; object-fit: contain;">
   </div>
   <!-- 右侧：70%宽度（固定比例，不折行），标题+链接+备注 -->
@@ -85,7 +70,7 @@ Our team is dedicated to building **Embodied AGI systems** and empowering both a
 <div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 30px;">
   <!-- 左侧：30%宽度（固定比例，不折行），论文图片 -->
   <div style="width: 30%; min-width: 250px;">
-    <img src="../files/eventvla-overview.gif" alt="eventvla" style="width: 100%; height: auto; object-fit: contain;">
+    <img src="../files/eventvla-overview.png" alt="eventvla" style="width: 100%; height: auto; object-fit: contain;">
   </div>
   <!-- 右侧：70%宽度（固定比例，不折行），标题+链接+备注 -->
   <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
@@ -93,6 +78,21 @@ Our team is dedicated to building **Embodied AGI systems** and empowering both a
     <p style="margin: 8px 0;">2026 arXiv</p>
     <p style="margin: 8px 0;">[<a href="https://ganlin-yang.github.io/EventVLA.github.io/">Project Page</a>]&nbsp;[<a href="https://arxiv.org/abs/2606.20092">Paper</a>]&nbsp;[<a href="https://github.com/InternRobotics/EventVLA">Code</a>]&nbsp;[<a href="https://huggingface.co/datasets/ganlinyang/RoboTwin-MeM">Data</a>]&nbsp;[<a href="https://huggingface.co/ganlinyang/EventVLA">Model</a>]</p>
     <p>We introduce EventVLA, an end-to-end VLA framework for long-horizon manipulation with sparse visual evidence memory. Its Keyframe Evidence Memory module predicts future keyframe utility from latent embeddings, stores task-critical visual events before they become occluded, and reuses them during action prediction, together with RoboTwin-MeM for evaluating non-Markovian manipulation tasks.
+</p>
+  </div>
+</div>
+
+<div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 30px;">
+  <!-- 左侧：30%宽度（固定比例，不折行），论文图片 -->
+  <div style="width: 30%; min-width: 250px;">
+    <img src="../files/internvla-a1-method.png" alt="internvla-a1" style="width: 100%; height: auto; object-fit: contain;">
+  </div>
+  <!-- 右侧：70%宽度（固定比例，不折行），标题+链接+备注 -->
+  <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
+    <h3 style="margin-top: 0; font-size: 18px; line-height: 1.5;">InternVLA-A1: Unifying Understanding, Generation and Action for Robotic Manipulation</h3>
+    <p style="margin: 8px 0;">2026 Technical report</p>
+    <p style="margin: 8px 0;">[<a href="https://internrobotics.github.io/internvla-a1.github.io/">Project Page</a>]&nbsp;[<a href="https://arxiv.org/abs/2601.02456">Paper</a>]&nbsp;[<a href="https://github.com/InternRobotics/InternVLA-A1">Code</a>]&nbsp;[<a href="https://huggingface.co/datasets/InternRobotics/InternData-A1">Data</a>]&nbsp;[<a href="https://huggingface.co/InternRobotics/InternVLA-A1-3B">Model</a>]</p>
+    <p>We present InternVLA-A1, a unified VLA model that coordinates scene understanding, visual foresight generation, and action execution with a Mixture-of-Transformers architecture. Trained on heterogeneous robot, simulation, and human-video data, InternVLA-A1 brings world-model-style dynamics prediction into robotic manipulation and shows strong performance on both static and highly dynamic tasks.
 </p>
   </div>
 </div>
