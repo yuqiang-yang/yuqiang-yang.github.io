@@ -60,7 +60,7 @@ Our team is dedicated to building **Embodied AGI systems** and empowering both a
   <!-- 右侧：70%宽度（固定比例，不折行），标题+链接+备注 -->
   <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
     <h3 style="margin-top: 0; font-size: 18px; line-height: 1.5;">Cortex: A Bidirectionally Aligned Embodied Agent Framework for Long-horizon Manipulation</h3>
-    <p style="margin: 8px 0;">2026 Technical report</p>
+    <p style="margin: 8px 0;">2026 arXiv</p>
     <p style="margin: 8px 0;">[<a href="https://steinate.github.io/cortex.github.io/">Project Page</a>]&nbsp;[<a href="https://steinate.github.io/cortex.github.io/#real-rollouts">Video</a>]&nbsp;[<a href="https://steinate.github.io/cortex.github.io/static/slides/cortex-technical-talk.pptx">Slides</a>]</p>
     <p>We present Cortex, a bidirectionally aligned embodied agent framework that connects a high-level VLM cognitive orchestrator with a low-level VLA executor through executable subtasks, compact memory, and online progress verification. Cortex standardizes long-horizon manipulation into grounded skill primitives and keeps planning, memory, and physical execution synchronized across simulation and real-world chemical workflows.
 </p>
@@ -379,18 +379,6 @@ Our team is dedicated to building **Embodied AGI systems** and empowering both a
 <br/>
 <br/>
 <br/>
-
-<div style="float:left; text-align:left; line-height: 1.8">
-<i><b>China-Singapore International Joint Research Institute</b></i>
-<br>Intern, Robot Perception and Computer Vision Group
-<br>Multi-sensor calibration and 3D detection
-<br>Supervisor: Dr. Mingxing Wen
-</div>
- <div style="float:right; text-align:right"><i>Jan. 2021 - Mar. 2021</i></div> <br/>
-<br/>
-<br/>
-
-
 
 ## Skills
 
