@@ -70,12 +70,42 @@ Our team is dedicated to building **Embodied AGI systems** and empowering both a
 <div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 30px;">
   <!-- 左侧：30%宽度（固定比例，不折行），论文图片 -->
   <div style="width: 30%; min-width: 250px;">
+    <img src="../files/cortex-overview.gif" alt="cortex" style="width: 100%; height: auto; object-fit: contain;">
+  </div>
+  <!-- 右侧：70%宽度（固定比例，不折行），标题+链接+备注 -->
+  <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
+    <h3 style="margin-top: 0; font-size: 18px; line-height: 1.5;">Cortex: A Bidirectionally Aligned Embodied Agent Framework for Long-horizon Manipulation</h3>
+    <p style="margin: 8px 0;">2026 Technical report</p>
+    <p style="margin: 8px 0;">[<a href="https://steinate.github.io/cortex.github.io/">Project Page</a>]&nbsp;[<a href="https://steinate.github.io/cortex.github.io/#real-rollouts">Video</a>]&nbsp;[<a href="https://steinate.github.io/cortex.github.io/static/slides/cortex-technical-talk.pptx">Slides</a>]</p>
+    <p>We present Cortex, a bidirectionally aligned embodied agent framework that connects a high-level VLM cognitive orchestrator with a low-level VLA executor through executable subtasks, compact memory, and online progress verification. Cortex standardizes long-horizon manipulation into grounded skill primitives and keeps planning, memory, and physical execution synchronized across simulation and real-world chemical workflows.
+</p>
+  </div>
+</div>
+
+<div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 30px;">
+  <!-- 左侧：30%宽度（固定比例，不折行），论文图片 -->
+  <div style="width: 30%; min-width: 250px;">
+    <img src="../files/eventvla-overview.gif" alt="eventvla" style="width: 100%; height: auto; object-fit: contain;">
+  </div>
+  <!-- 右侧：70%宽度（固定比例，不折行），标题+链接+备注 -->
+  <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
+    <h3 style="margin-top: 0; font-size: 18px; line-height: 1.5;">EventVLA: Event-Driven Visual Evidence Memory for Long-Horizon Vision-Language-Action Policies</h3>
+    <p style="margin: 8px 0;">2026 arXiv</p>
+    <p style="margin: 8px 0;">[<a href="https://ganlin-yang.github.io/EventVLA.github.io/">Project Page</a>]&nbsp;[<a href="https://arxiv.org/abs/2606.20092">Paper</a>]&nbsp;[<a href="https://github.com/InternRobotics/EventVLA">Code</a>]&nbsp;[<a href="https://huggingface.co/datasets/ganlinyang/RoboTwin-MeM">Data</a>]&nbsp;[<a href="https://huggingface.co/ganlinyang/EventVLA">Model</a>]</p>
+    <p>We introduce EventVLA, an end-to-end VLA framework for long-horizon manipulation with sparse visual evidence memory. Its Keyframe Evidence Memory module predicts future keyframe utility from latent embeddings, stores task-critical visual events before they become occluded, and reuses them during action prediction, together with RoboTwin-MeM for evaluating non-Markovian manipulation tasks.
+</p>
+  </div>
+</div>
+
+<div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 30px;">
+  <!-- 左侧：30%宽度（固定比例，不折行），论文图片 -->
+  <div style="width: 30%; min-width: 250px;">
     <img src="../files/latentpilot-demo.gif" alt="latentpilot" style="width: 100%; height: auto; object-fit: contain;">
   </div>
   <!-- 右侧：70%宽度（固定比例，不折行），标题+链接+备注 -->
   <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
     <h3 style="margin-top: 0; font-size: 18px; line-height: 1.5;">LatentPilot: Scene-Aware Vision-and-Language Navigation by Dreaming Ahead with Latent Visual Reasoning</h3>
-    <p style="margin: 8px 0;">2026 arXiv</p>
+    <p style="margin: 8px 0;">2026 ECCV</p>
     <p style="margin: 8px 0;">[<a href="https://abdd.top/latentpilot/">Project Page</a>]&nbsp;[<a href="https://arxiv.org/abs/2603.29165">Paper</a>]&nbsp;[<a href="https://github.com/oceanhao/latentpilot">Code</a>]</p>
     <p>We propose LatentPilot, a future-aware VLN paradigm that learns action-conditioned visual dynamics from future observations during training while requiring only current observations at inference. Its recurrent latent visual tokens allow the agent to dream ahead, reason over likely scene changes, and improve navigation decisions in simulation and real-world tests.
 </p>
