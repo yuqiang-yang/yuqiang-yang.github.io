@@ -85,6 +85,51 @@ Our team is dedicated to building **Embodied AGI systems** and empowering both a
 <div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 30px;">
   <!-- 左侧：30%宽度（固定比例，不折行），论文图片 -->
   <div style="width: 30%; min-width: 250px;">
+    <img src="../files/x-navdp.gif" alt="X-NavDP dynamic and embodiment-aware navigation" style="width: 100%; height: auto; object-fit: contain;">
+  </div>
+  <!-- 右侧：70%宽度（固定比例，不折行），标题+链接+备注 -->
+  <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
+    <h3 style="margin-top: 0; font-size: 18px; line-height: 1.5;">X-NavDP: Generalizing Navigation Diffusion Policy to Novel Behavior and Embodiments with Group Q-score Reweighted Matching</h3>
+    <p style="margin: 8px 0;">2026 arXiv</p>
+    <p style="margin: 8px 0;">[<a href="https://yty-sky.github.io/x-navdp-project-page/">Project Page</a>]&nbsp;[<a href="https://arxiv.org/abs/2607.28560">Paper</a>]&nbsp;[<a href="https://github.com/InternRobotics/NavDP/tree/master/baselines/x-navdp">Code</a>]</p>
+    <p>We introduce X-NavDP, a data-efficient reinforcement-learning post-training framework that adapts pretrained navigation diffusion policies to novel behaviors and heterogeneous robot embodiments through Group Q-score Reweighted Matching. X-NavDP improves the overall success rate from 61.20% to 84.28% in simulation and from 10% to 65% on real-world hard cases, while learning trap recovery, long-obstacle detouring, dynamic avoidance, and embodiment-aware navigation.
+</p>
+  </div>
+</div>
+
+<div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 30px;">
+  <!-- 左侧：30%宽度（固定比例，不折行），论文图片 -->
+  <div style="width: 30%; min-width: 250px;">
+    <img src="../files/internvla-a15.gif" alt="InternVLA-A1.5 compositional manipulation" style="width: 100%; height: auto; object-fit: contain;">
+  </div>
+  <!-- 右侧：70%宽度（固定比例，不折行），标题+链接+备注 -->
+  <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
+    <h3 style="margin-top: 0; font-size: 18px; line-height: 1.5;">InternVLA-A1.5: Unifying Understanding, Latent Foresight, and Action for Compositional Generalization</h3>
+    <p style="margin: 8px 0;">2026 Technical report</p>
+    <p style="margin: 8px 0;">[<a href="https://internrobotics.github.io/internvla-a15.github.io/">Project Page</a>]&nbsp;[<a href="https://internrobotics.github.io/internvla-a15.github.io/reference-assets/paper/InternVLA_A1_5.pdf">Paper</a>]&nbsp;[<a href="https://github.com/InternRobotics/InternVLA-A-series">Code</a>]&nbsp;[<a href="https://huggingface.co/collections/InternRobotics/internvla-a15">Model &amp; Data</a>]</p>
+    <p>We present InternVLA-A1.5, a unified vision-language-action model that combines multimodal understanding, training-only latent visual foresight, and continuous action generation through a Mixture-of-Transformers design. Trained on 1.2M robot episodes, 861M frames, and 3M multimodal samples, it achieves strong compositional generalization and broad gains across static, robust, dynamic, and long-horizon manipulation benchmarks.
+</p>
+  </div>
+</div>
+
+<div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 30px;">
+  <!-- 左侧：30%宽度（固定比例，不折行），论文图片 -->
+  <div style="width: 30%; min-width: 250px;">
+    <img src="../files/ebench.gif" alt="EBench mobile manipulation task showcase" style="width: 100%; height: auto; object-fit: contain;">
+  </div>
+  <!-- 右侧：70%宽度（固定比例，不折行），标题+链接+备注 -->
+  <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
+    <h3 style="margin-top: 0; font-size: 18px; line-height: 1.5;">EBench: Elemental Diagnosis of Generalist Mobile Manipulation Policies</h3>
+    <p style="margin: 8px 0;">2026 arXiv</p>
+    <p style="margin: 8px 0;">[<a href="https://internrobotics.github.io/EBench-doc/">Project Page</a>]&nbsp;[<a href="https://arxiv.org/abs/2606.18239">Paper</a>]&nbsp;[<a href="https://github.com/InternRobotics/EBench">Code</a>]&nbsp;[<a href="https://internrobotics.shlab.org.cn/eval">Leaderboard</a>]&nbsp;[<a href="https://huggingface.co/datasets/InternRobotics/EBench-Dataset">Data</a>]</p>
+    <p>We introduce EBench, a diagnostic benchmark for generalist mobile manipulation policies that replaces a single success rate with interpretable capability profiles. It covers 26 task types and 794 evaluation instances across long-horizon, pick-and-place, dexterous, precise, and mobile manipulation, with five-axis capability diagnosis and controlled generalization tests over objects, backgrounds, instructions, and mixed shifts.
+</p>
+  </div>
+</div>
+
+<div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 30px;">
+  <!-- 左侧：30%宽度（固定比例，不折行），论文图片 -->
+  <div style="width: 30%; min-width: 250px;">
     <img src="../files/internvla-a1-method.png" alt="internvla-a1" style="width: 100%; height: auto; object-fit: contain;">
   </div>
   <!-- 右侧：70%宽度（固定比例，不折行），标题+链接+备注 -->
